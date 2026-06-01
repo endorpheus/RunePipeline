@@ -1,6 +1,6 @@
 # RunePipeline
 
-**Translate modern English into Proto-Germanic, Proto-Norse, and Elder Futhark runes.**
+**Translate modern English into Proto-Germanic, Proto-Norse, and ultimately Elder Futhark runes.**
 
 RunePipeline is a C++17 command-line tool and local web application that walks each word of an English phrase through a four-stage linguistic pipeline:
 
@@ -9,15 +9,15 @@ English  →  Proto-Germanic  →  Proto-Norse  →  Elder Futhark runes
  "wolf"       *wulfaz           wulfaR          ᚹᚢᛚᚠᚨᛉ
 ```
 
-Every stage is shown — the reconstructed Proto-Germanic root, the Proto-Norse form after sound changes, and the Elder Futhark glyph sequence with per-rune names and phonemes. For words with no direct historical equivalent (modern concepts like "computer" or "internet"), a semantic decomposition engine builds a plausible PGmc compound from attested roots.
+Every stage is shown: the reconstructed Proto-Germanic root, the Proto-Norse form after sound changes, and the Elder Futhark glyph sequence with per-rune names and phonemes. For words with no direct historical equivalent (modern concepts like "computer" or "internet"), a semantic decomposition engine builds a plausible PGmc compound from attested roots.
 
 ---
 
 ## How this project came about
 
-The Elder Futhark runic alphabet was used across the Germanic world from roughly the 2nd to the 8th century CE — carved into weapons, jewellery, runestones, and burial goods. It encodes a stage of the language that preceded Old English, Old Norse, and the other Germanic branches: a world of shared myth, shared vocabulary, and shared sounds that later splintered into dozens of distinct tongues.
+The Elder Futhark runic alphabet was used across the Germanic world from roughly the 2nd to the 8th century CE, carved into weapons, jewellery, runestones, and burial goods. It encodes a stage of the language that preceded Old English, Old Norse, and the other Germanic branches: a world of shared myth, shared vocabulary, and shared sounds that later splintered into dozens of distinct tongues.
 
-RunePipeline grew from a simple curiosity: *what would ordinary modern words have looked like to someone who spoke that ancestral language?* Rather than a static lookup table, the project attempts to reconstruct the actual linguistic path — starting from attested Proto-Germanic roots sourced from academic etymological dictionaries, applying the phonological changes that produced Proto-Norse, and then mapping the resulting sound sequence onto the Elder Futhark characters that speakers of that era would have used.
+RunePipeline grew from a simple curiosity: *what would ordinary modern words have looked like to someone who spoke that ancestral language?* Rather than a static lookup table, the project attempts to reconstruct the actual linguistic path: starting from attested Proto-Germanic roots sourced from academic etymological dictionaries, applying the phonological changes that produced Proto-Norse, and then mapping the resulting sound sequence onto the Elder Futhark characters that speakers of that era would have used.
 
 The result is useful for creative writers seeking period-appropriate names and inscriptions, game developers building authentic-feeling Norse or Germanic settings, students learning historical linguistics, and anyone who finds it compelling to hear the deep past echoed in familiar words.
 
@@ -31,19 +31,19 @@ There are several reasons to hold the output with appropriate humility:
 
 ### Proto-Germanic was never written down
 
-Every Proto-Germanic form marked with an asterisk (*wulfaz, *habjaną, etc.) is a *reconstruction* — a form inferred by working backwards from Old English, Old Norse, Gothic, Old High German, and other daughter languages using the systematic sound laws of comparative linguistics. No scribe ever wrote these words. Scholars sometimes disagree on the exact reconstruction, and RunePipeline's lexicon follows primarily Kroonen (2013) and Orel (2003), which themselves differ from earlier sources in places.
+Every Proto-Germanic form marked with an asterisk (*wulfaz, *habjaną, etc.) is a *reconstruction*, inferred by working backwards from Old English, Old Norse, Gothic, Old High German, and other daughter languages using the systematic sound laws of comparative linguistics. No scribe ever wrote these words. Scholars sometimes disagree on the exact reconstruction, and RunePipeline's lexicon follows primarily Kroonen (2013) and Orel (2003), which themselves differ from earlier sources in places.
 
 ### The Elder Futhark corpus is tiny and fragmentary
 
-Roughly 350 Elder Futhark inscriptions survive. Most are very short — a name, a word, a short formula. Many are damaged or ambiguous. The inscriptions span 600 years and a vast geographic range, so the "language" they represent was not uniform. RunePipeline models a generalised Proto-Norse, not any specific regional or temporal dialect.
+Roughly 350 Elder Futhark inscriptions survive. Most are very short: a name, a word, a short formula. Many are damaged or ambiguous. The inscriptions span 600 years and a vast geographic range, so the "language" they represent was not uniform. RunePipeline models a generalised Proto-Norse, not any specific regional or temporal dialect.
 
 ### Sound changes had fuzzy edges
 
-The phonological rules that turned Proto-Germanic into Proto-Norse — rhotacism (*z → R), vowel breaking, umlaut conditioning — were regular in the majority of cases but had conditioned exceptions, dialectal variation, and borrowed words that didn't follow the expected pattern. RunePipeline applies a simplified rule set that captures the most common changes. Edge cases will not always be right.
+The phonological rules that turned Proto-Germanic into Proto-Norse (rhotacism: *z → R; vowel breaking; umlaut conditioning) were regular in the majority of cases but had conditioned exceptions, dialectal variation, and borrowed words that did not follow the expected pattern. RunePipeline applies a simplified rule set that captures the most common changes. Edge cases will not always be right.
 
 ### Lexical coverage is uneven
 
-Concrete, everyday nouns (wolf, axe, sea, fire) are generally well-attested across multiple daughter languages and carry high certainty. Abstract concepts, specialist vocabulary, and culturally specific terms are thinner. Some entries carry `"certainty": "medium"` because the PGmc root is uncertain or the word entered Germanic as an early Latin or Celtic loan — these are indicated in the API output and the web GUI's pipeline trace. `"certainty": "low"` entries are genuine best-guesses.
+Concrete, everyday nouns (wolf, axe, sea, fire) are generally well-attested across multiple daughter languages and carry high certainty. Abstract concepts, specialist vocabulary, and culturally specific terms are thinner. Some entries carry `"certainty": "medium"` because the PGmc root is uncertain or the word entered Germanic as an early Latin or Celtic loan; these are indicated in the API output and the web GUI's pipeline trace. `"certainty": "low"` entries are genuine best-guesses.
 
 ### Modern words have no historical equivalent
 
@@ -51,7 +51,7 @@ Concrete, everyday nouns (wolf, axe, sea, fire) are generally well-attested acro
 
 ### The rune-to-sound mapping is approximate
 
-Elder Futhark runes encoded sounds, not spellings, and the exact phonetic value of several runes is debated. Vowel length was often not distinguished in writing. RunePipeline maps each character of the Proto-Norse form to the nearest rune, which is how ancient scribes would have approached the problem — but ancient scribes also varied considerably in their choices.
+Elder Futhark runes encoded sounds, not spellings, and the exact phonetic value of several runes is debated. Vowel length was often not distinguished in writing. RunePipeline maps each character of the Proto-Norse form to the nearest rune, which is how ancient scribes would have approached the problem, though ancient scribes also varied considerably in their choices.
 
 **In short:** use RunePipeline for inspiration, learning, and creative work. For academic citations, consult primary sources.
 
@@ -60,14 +60,14 @@ Elder Futhark runes encoded sounds, not spellings, and the exact phonetic value 
 ## Features
 
 - **1,329-entry lexicon** sourced from Kroonen (2013) and Orel (2003), covering common vocabulary, numbers, adjectives, function words, kinship terms, fauna, flora, mythology, and more
-- **Inflection stripping** — *wolves*, *running*, *brightest* resolve to their stem forms
-- **Semantic compound decomposition** — modern or archaic words not in the lexicon are broken into PGmc root components
-- **Idiom lookup** — 90 common English idioms mapped to their Proto-Germanic semantic equivalents
-- **Four-stage pipeline trace** — see the PGmc root, certainty rating, source type, and per-rune breakdown for every token
-- **Web GUI** — Norse-themed single-page app served locally; no internet connection required after build
-- **Elder Futhark reference panel** — all 24 runes with names, phonemes, and traditional meanings
-- **REST API** — JSON endpoints for integration with other tools
-- **Zero runtime dependencies** — one self-contained binary plus two JSON data files
+- **Inflection stripping**: *wolves*, *running*, *brightest* resolve to their stem forms
+- **Semantic compound decomposition**: modern or archaic words not in the lexicon are broken into PGmc root components
+- **Idiom lookup**: 90 common English idioms mapped to their Proto-Germanic semantic equivalents
+- **Four-stage pipeline trace**: see the PGmc root, certainty rating, source type, and per-rune breakdown for every token
+- **Web GUI**: Norse-themed single-page app served locally, with no internet connection required after build
+- **Elder Futhark reference panel**: all 24 runes with names, phonemes, and traditional meanings
+- **REST API**: JSON endpoints for integration with other tools
+- **Zero runtime dependencies**: one self-contained binary plus two JSON data files
 
 ---
 
@@ -81,8 +81,8 @@ Elder Futhark runes encoded sounds, not spellings, and the exact phonetic value 
 | Internet access (build only) | — | CMake downloads nlohmann/json and cpp-httplib on first build |
 
 No other libraries need to be installed manually. CMake will automatically download:
-- **nlohmann/json v3.11.3** — JSON parsing (uses system install if available)
-- **cpp-httplib v0.18.1** — embedded HTTP server (header-only, HTTP-only, no OpenSSL)
+- **nlohmann/json v3.11.3**: JSON parsing (uses system install if available)
+- **cpp-httplib v0.18.1**: embedded HTTP server (header-only, HTTP-only, no OpenSSL)
 
 ### Arch Linux / Archcraft
 
@@ -218,8 +218,8 @@ computer ───────────────────────�
 The GUI provides:
 - **Live translation** as you type (250 ms debounce)
 - **Large rune output** with a one-click copy button
-- **Pipeline trace cards** — expandable per-word panels showing PGmc root, Proto-Norse form, certainty badge, source type, and an interactive per-rune breakdown with hover tooltips (rune name, phoneme, source character)
-- **Elder Futhark reference panel** — all 24 runes, toggleable
+- **Pipeline trace cards**: expandable per-word panels showing PGmc root, Proto-Norse form, certainty badge, source type, and an interactive per-rune breakdown with hover tooltips (rune name, phoneme, source character)
+- **Elder Futhark reference panel**: all 24 runes, toggleable
 - Press `Ctrl-C` in the terminal to stop the server
 
 ### Override data files
@@ -300,7 +300,7 @@ Translate a phrase. Request body: `{"text": "wolf king"}`.
 | `pgmc` | Reconstructed Proto-Germanic root (asterisk form without leading *) |
 | `proto_norse` | PGmc with Proto-Norse sound changes applied |
 | `runes` | Elder Futhark glyph string |
-| `certainty` | `high`, `medium`, or `low` — confidence in the PGmc reconstruction |
+| `certainty` | `high`, `medium`, or `low`; indicates confidence in the PGmc reconstruction |
 | `source` | `lexicon`, `compound`, `idiom`, or `unknown` |
 | `gloss` | Human-readable decomposition (populated for compound and idiom tokens) |
 | `rune_tokens` | Per-rune breakdown array for rendering interactive tooltips |
@@ -344,7 +344,7 @@ The primary vocabulary store. Each entry maps an English headword to a Proto-Ger
 
 The lexicon currently contains **1,329 entries** spanning everyday verbs, numbers, adjectives, function words, body parts, kinship, fauna, flora, tools, weapons, mythology, weather, geography, and abstract concepts.
 
-After editing `lexicon.json`, copy it to `build/data/lexicon.json` and restart the server — no recompilation needed:
+After editing `lexicon.json`, copy it to `build/data/lexicon.json` and restart the server. No recompilation is needed:
 
 ```bash
 cp data/lexicon.json build/data/lexicon.json
@@ -366,7 +366,7 @@ Maps modern or anachronistic English words to PGmc root components that are conc
 
 ### `data/idioms.json`
 
-Maps common English idioms to a Proto-Germanic semantic equivalent — the meaning expressed in PGmc rather than a word-for-word rendering:
+Maps common English idioms to a Proto-Germanic semantic equivalent, expressing the meaning in PGmc rather than producing a word-for-word rendering:
 
 ```json
 {
@@ -466,7 +466,7 @@ The lexicon is the easiest part of the project to extend. Adding an entry requir
 | Level | Use when |
 |---|---|
 | `high` | The PGmc root is attested in at least two Germanic branches (OE, ON, Gothic, OHG, etc.) with a regular correspondence |
-| `medium` | The root is reconstructible but uncertain — only one branch attests it, or it is an early loan from Latin/Celtic/other |
+| `medium` | The root is reconstructible but uncertain: only one branch attests it, or it is an early loan from Latin/Celtic/other |
 | `low` | The best available guess; the form is speculative or the word may not have a plausible PGmc equivalent |
 
 **Primary sources for PGmc reconstruction (in priority order):**
