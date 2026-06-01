@@ -48,7 +48,21 @@ static void printUsage(const char* prog) {
         << "  --lexicon <path>     Override data/lexicon.json\n"
         << "  --compounds <path>   Override data/compounds.json\n"
         << "  --serve [port]       Launch the web GUI (default port 3175)\n"
+        << "  --no-open            Don't auto-open a browser with --serve\n"
         << "  -h, --help           Show this help\n";
+}
+
+static void openBrowser(const std::string& url) {
+#if defined(_WIN32)
+    std::system(("start \"\" \"" + url + "\"").c_str());
+#elif defined(__APPLE__)
+    std::system(("open \"" + url + "\" &").c_str());
+#else
+    // xdg-open respects the user's default browser on any freedesktop-
+    // compliant desktop (GNOME, KDE, XFCE, Openbox, etc.).
+    if (std::system(("xdg-open \"" + url + "\" &").c_str()) != 0)
+        std::cerr << "Note: could not open browser automatically.\n";
+#endif
 }
 
 static std::string sourceLabel(TokenSource s) {
@@ -107,6 +121,7 @@ int main(int argc, char* argv[]) {
     bool verbose      = false;
     bool decompose    = true;
     bool serveMode    = false;
+    bool openBrowserFlag = true;
     int  servePort    = 3175;
     std::string lexiconPath;
     std::string compoundsPath;
@@ -130,6 +145,8 @@ int main(int argc, char* argv[]) {
             // Optional port number following --serve
             if (i + 1 < argc && std::isdigit(static_cast<unsigned char>(argv[i+1][0])))
                 servePort = std::stoi(argv[++i]);
+        } else if (arg == "--no-open") {
+            openBrowserFlag = false;
         } else if (arg == "-h" || arg == "--help") {
             printUsage(argv[0]);
             return 0;
@@ -165,10 +182,9 @@ int main(int argc, char* argv[]) {
 
     if (serveMode) {
         std::string uiPath = findData("", "RUNEPIPE_UI", "ui/index.html");
-        // Auto-open Firefox in background; ignore failure.
         std::string url = "http://localhost:" + std::to_string(servePort);
-        std::string openCmd = "firefox " + url + " &";
-        std::system(openCmd.c_str());  // NOLINT — intentional browser launch
+        if (openBrowserFlag)
+            openBrowser(url);
         Server server(pipeline, mapper, uiPath, servePort);
         server.Start();
         return 0;

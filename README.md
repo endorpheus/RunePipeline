@@ -205,10 +205,14 @@ computer ───────────────────────�
 
 ```bash
 ./build/runepipe --serve
-# Opens http://localhost:3175 in Firefox automatically.
+# Opens http://localhost:3175 in your default browser automatically.
+# Uses xdg-open on Linux, open on macOS, start on Windows.
 
 # Custom port
 ./build/runepipe --serve 8080
+
+# Skip auto-open (navigate to the URL yourself)
+./build/runepipe --serve --no-open
 ```
 
 The GUI provides:
@@ -250,6 +254,7 @@ Options:
   --compounds <path>   Override data/compounds.json
   --idioms <path>      Override data/idioms.json
   --serve [port]       Launch the web GUI (default port 3175)
+  --no-open            Don't auto-open a browser with --serve
   -h, --help           Show this help
 ```
 
