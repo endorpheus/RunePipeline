@@ -1,0 +1,5363 @@
+{
+  "Note": "Proto-Germanic reconstructions follow Kroonen (2013) and Ringe (2006). Asterisks omitted; forms are bare reconstructions.",
+  "one": {
+    "proto": "ainaz",
+    "certainty": "high"
+  },
+  "two": {
+    "proto": "twai",
+    "certainty": "high"
+  },
+  "three": {
+    "proto": "þrīz",
+    "certainty": "high"
+  },
+  "four": {
+    "proto": "fedwōr",
+    "certainty": "high"
+  },
+  "five": {
+    "proto": "fimf",
+    "certainty": "high"
+  },
+  "six": {
+    "proto": "sehs",
+    "certainty": "high"
+  },
+  "seven": {
+    "proto": "sebun",
+    "certainty": "high"
+  },
+  "eight": {
+    "proto": "ahtōu",
+    "certainty": "high"
+  },
+  "nine": {
+    "proto": "newun",
+    "certainty": "high"
+  },
+  "ten": {
+    "proto": "tehun",
+    "certainty": "high"
+  },
+  "hundred": {
+    "proto": "hundą",
+    "certainty": "high"
+  },
+  "thousand": {
+    "proto": "þūsundī",
+    "certainty": "medium"
+  },
+  "sun": {
+    "proto": "sunnō",
+    "certainty": "high"
+  },
+  "moon": {
+    "proto": "mēnô",
+    "certainty": "high"
+  },
+  "star": {
+    "proto": "sternō",
+    "certainty": "high"
+  },
+  "sky": {
+    "proto": "himinaz",
+    "certainty": "high"
+  },
+  "heaven": {
+    "proto": "himinaz",
+    "certainty": "high"
+  },
+  "earth": {
+    "proto": "erþō",
+    "certainty": "high"
+  },
+  "ground": {
+    "proto": "grunduz",
+    "certainty": "high"
+  },
+  "water": {
+    "proto": "watōr",
+    "certainty": "high"
+  },
+  "fire": {
+    "proto": "fūrą",
+    "certainty": "high"
+  },
+  "wind": {
+    "proto": "windaz",
+    "certainty": "high"
+  },
+  "storm": {
+    "proto": "sturmaz",
+    "certainty": "high"
+  },
+  "rain": {
+    "proto": "regnaz",
+    "certainty": "medium"
+  },
+  "snow": {
+    "proto": "snaiwaz",
+    "certainty": "high"
+  },
+  "ice": {
+    "proto": "īsaz",
+    "certainty": "high"
+  },
+  "frost": {
+    "proto": "frustaz",
+    "certainty": "medium"
+  },
+  "stone": {
+    "proto": "stainaz",
+    "certainty": "high"
+  },
+  "rock": {
+    "proto": "stainaz",
+    "certainty": "high"
+  },
+  "cliff": {
+    "proto": "kliffą",
+    "certainty": "medium"
+  },
+  "sand": {
+    "proto": "sandaz",
+    "certainty": "high"
+  },
+  "mud": {
+    "proto": "mudją",
+    "certainty": "medium"
+  },
+  "tree": {
+    "proto": "trewą",
+    "certainty": "high"
+  },
+  "wood": {
+    "proto": "widuz",
+    "certainty": "high"
+  },
+  "forest": {
+    "proto": "waldaz",
+    "certainty": "high"
+  },
+  "sea": {
+    "proto": "marīz",
+    "certainty": "high"
+  },
+  "ocean": {
+    "proto": "marīz",
+    "certainty": "high"
+  },
+  "river": {
+    "proto": "ahwō",
+    "certainty": "high"
+  },
+  "stream": {
+    "proto": "straumaz",
+    "certainty": "high"
+  },
+  "lake": {
+    "proto": "laguz",
+    "certainty": "high"
+  },
+  "mountain": {
+    "proto": "bergaz",
+    "certainty": "high"
+  },
+  "hill": {
+    "proto": "hulaz",
+    "certainty": "medium"
+  },
+  "valley": {
+    "proto": "daljō",
+    "certainty": "high"
+  },
+  "island": {
+    "proto": "awjō",
+    "certainty": "high"
+  },
+  "shore": {
+    "proto": "stadiz",
+    "certainty": "medium"
+  },
+  "field": {
+    "proto": "feldaz",
+    "certainty": "high"
+  },
+  "marsh": {
+    "proto": "mariskaz",
+    "certainty": "medium"
+  },
+  "cave": {
+    "proto": "hlōwą",
+    "certainty": "low"
+  },
+  "path": {
+    "proto": "paþaz",
+    "certainty": "high"
+  },
+  "road": {
+    "proto": "wegaz",
+    "certainty": "high"
+  },
+  "wolf": {
+    "proto": "wulfaz",
+    "certainty": "high"
+  },
+  "bear": {
+    "proto": "berô",
+    "certainty": "high"
+  },
+  "boar": {
+    "proto": "bairaz",
+    "certainty": "high"
+  },
+  "eagle": {
+    "proto": "aralaz",
+    "certainty": "high"
+  },
+  "raven": {
+    "proto": "hrabnaz",
+    "certainty": "high"
+  },
+  "crow": {
+    "proto": "krāwō",
+    "certainty": "medium"
+  },
+  "hawk": {
+    "proto": "habukaz",
+    "certainty": "high"
+  },
+  "swan": {
+    "proto": "swanaz",
+    "certainty": "high"
+  },
+  "horse": {
+    "proto": "ehwaz",
+    "certainty": "high"
+  },
+  "stallion": {
+    "proto": "steuraz",
+    "certainty": "medium"
+  },
+  "cow": {
+    "proto": "kūz",
+    "certainty": "high"
+  },
+  "ox": {
+    "proto": "uhsaz",
+    "certainty": "high"
+  },
+  "sheep": {
+    "proto": "awiz",
+    "certainty": "high"
+  },
+  "ram": {
+    "proto": "rammaz",
+    "certainty": "medium"
+  },
+  "pig": {
+    "proto": "swīną",
+    "certainty": "high"
+  },
+  "dog": {
+    "proto": "hundaz",
+    "certainty": "high"
+  },
+  "cat": {
+    "proto": "kattuz",
+    "certainty": "medium",
+    "note": "early loanword"
+  },
+  "fish": {
+    "proto": "fiskaz",
+    "certainty": "high"
+  },
+  "seal": {
+    "proto": "selaz",
+    "certainty": "high"
+  },
+  "whale": {
+    "proto": "hwalaz",
+    "certainty": "high"
+  },
+  "serpent": {
+    "proto": "wormaz",
+    "certainty": "high"
+  },
+  "snake": {
+    "proto": "snēkô",
+    "certainty": "medium"
+  },
+  "deer": {
+    "proto": "raihaz",
+    "certainty": "medium"
+  },
+  "elk": {
+    "proto": "algiz",
+    "certainty": "high"
+  },
+  "fox": {
+    "proto": "fuhsaz",
+    "certainty": "high"
+  },
+  "hare": {
+    "proto": "hazô",
+    "certainty": "high"
+  },
+  "rat": {
+    "proto": "rattō",
+    "certainty": "medium"
+  },
+  "bee": {
+    "proto": "bijō",
+    "certainty": "high"
+  },
+  "fly": {
+    "proto": "fleugō",
+    "certainty": "high"
+  },
+  "worm": {
+    "proto": "wormaz",
+    "certainty": "high"
+  },
+  "bird": {
+    "proto": "fuglaz",
+    "certainty": "high"
+  },
+  "head": {
+    "proto": "haubudą",
+    "certainty": "high"
+  },
+  "skull": {
+    "proto": "skulō",
+    "certainty": "medium"
+  },
+  "face": {
+    "proto": "andawlitą",
+    "certainty": "high"
+  },
+  "eye": {
+    "proto": "augō",
+    "certainty": "high"
+  },
+  "ear": {
+    "proto": "ausō",
+    "certainty": "high"
+  },
+  "nose": {
+    "proto": "nasō",
+    "certainty": "high"
+  },
+  "mouth": {
+    "proto": "munþaz",
+    "certainty": "high"
+  },
+  "tooth": {
+    "proto": "tanþuz",
+    "certainty": "high"
+  },
+  "tongue": {
+    "proto": "tungō",
+    "certainty": "high"
+  },
+  "lip": {
+    "proto": "lepjō",
+    "certainty": "medium"
+  },
+  "neck": {
+    "proto": "hnakkaz",
+    "certainty": "medium"
+  },
+  "throat": {
+    "proto": "þrutō",
+    "certainty": "low"
+  },
+  "shoulder": {
+    "proto": "skuldrō",
+    "certainty": "high"
+  },
+  "arm": {
+    "proto": "armaz",
+    "certainty": "high"
+  },
+  "hand": {
+    "proto": "handuz",
+    "certainty": "high"
+  },
+  "finger": {
+    "proto": "fingraz",
+    "certainty": "high"
+  },
+  "thumb": {
+    "proto": "þūmô",
+    "certainty": "high"
+  },
+  "fist": {
+    "proto": "fuhistiz",
+    "certainty": "medium"
+  },
+  "back": {
+    "proto": "bakaz",
+    "certainty": "medium"
+  },
+  "chest": {
+    "proto": "brustiz",
+    "certainty": "medium"
+  },
+  "belly": {
+    "proto": "balgjaz",
+    "certainty": "medium"
+  },
+  "leg": {
+    "proto": "lagją",
+    "certainty": "medium"
+  },
+  "knee": {
+    "proto": "knewą",
+    "certainty": "high"
+  },
+  "foot": {
+    "proto": "fōts",
+    "certainty": "high"
+  },
+  "toe": {
+    "proto": "taihwō",
+    "certainty": "medium"
+  },
+  "heel": {
+    "proto": "hanhilaz",
+    "certainty": "medium"
+  },
+  "heart": {
+    "proto": "hertô",
+    "certainty": "high"
+  },
+  "lung": {
+    "proto": "lungwô",
+    "certainty": "high"
+  },
+  "liver": {
+    "proto": "librō",
+    "certainty": "high"
+  },
+  "blood": {
+    "proto": "blōþą",
+    "certainty": "high"
+  },
+  "bone": {
+    "proto": "bainą",
+    "certainty": "high"
+  },
+  "skin": {
+    "proto": "skinþą",
+    "certainty": "medium"
+  },
+  "hair": {
+    "proto": "hērą",
+    "certainty": "high"
+  },
+  "beard": {
+    "proto": "bardaz",
+    "certainty": "high"
+  },
+  "soul": {
+    "proto": "saiwalō",
+    "certainty": "high"
+  },
+  "breath": {
+    "proto": "ēþmaz",
+    "certainty": "medium"
+  },
+  "father": {
+    "proto": "fadēr",
+    "certainty": "high"
+  },
+  "mother": {
+    "proto": "mōdēr",
+    "certainty": "high"
+  },
+  "brother": {
+    "proto": "brōþēr",
+    "certainty": "high"
+  },
+  "sister": {
+    "proto": "swestēr",
+    "certainty": "high"
+  },
+  "son": {
+    "proto": "sunuz",
+    "certainty": "high"
+  },
+  "daughter": {
+    "proto": "duhtēr",
+    "certainty": "high"
+  },
+  "wife": {
+    "proto": "wībą",
+    "certainty": "high"
+  },
+  "man": {
+    "proto": "mannaz",
+    "certainty": "high"
+  },
+  "woman": {
+    "proto": "kwenō",
+    "certainty": "high"
+  },
+  "child": {
+    "proto": "barną",
+    "certainty": "high"
+  },
+  "boy": {
+    "proto": "knabô",
+    "certainty": "medium"
+  },
+  "girl": {
+    "proto": "mēgaþīwō",
+    "certainty": "low"
+  },
+  "maiden": {
+    "proto": "magaþiz",
+    "certainty": "high"
+  },
+  "maid": {
+    "proto": "magaþiz",
+    "certainty": "high"
+  },
+  "kin": {
+    "proto": "kunją",
+    "certainty": "high"
+  },
+  "clan": {
+    "proto": "kunją",
+    "certainty": "high"
+  },
+  "family": {
+    "proto": "kunją",
+    "certainty": "high"
+  },
+  "people": {
+    "proto": "þeudō",
+    "certainty": "high"
+  },
+  "tribe": {
+    "proto": "þeudō",
+    "certainty": "high"
+  },
+  "folk": {
+    "proto": "fulkaz",
+    "certainty": "high"
+  },
+  "king": {
+    "proto": "kuningaz",
+    "certainty": "high"
+  },
+  "lord": {
+    "proto": "drauhtinaz",
+    "certainty": "high"
+  },
+  "chieftain": {
+    "proto": "aldijaz",
+    "certainty": "medium"
+  },
+  "ruler": {
+    "proto": "waldandz",
+    "certainty": "medium"
+  },
+  "warrior": {
+    "proto": "harjaz",
+    "certainty": "high"
+  },
+  "hero": {
+    "proto": "haþuz",
+    "certainty": "medium"
+  },
+  "thane": {
+    "proto": "þegnaz",
+    "certainty": "high"
+  },
+  "slave": {
+    "proto": "þralaz",
+    "certainty": "medium"
+  },
+  "thrall": {
+    "proto": "þralaz",
+    "certainty": "high"
+  },
+  "sword": {
+    "proto": "swerþaz",
+    "certainty": "high"
+  },
+  "spear": {
+    "proto": "gaizaz",
+    "certainty": "high"
+  },
+  "shield": {
+    "proto": "skelduz",
+    "certainty": "high"
+  },
+  "helmet": {
+    "proto": "helmaz",
+    "certainty": "high"
+  },
+  "mail": {
+    "proto": "malijō",
+    "certainty": "medium"
+  },
+  "axe": {
+    "proto": "akulīją",
+    "certainty": "medium"
+  },
+  "knife": {
+    "proto": "knībaz",
+    "certainty": "medium"
+  },
+  "bow": {
+    "proto": "bōgaz",
+    "certainty": "medium"
+  },
+  "arrow": {
+    "proto": "arwô",
+    "certainty": "high"
+  },
+  "battle": {
+    "proto": "wīgą",
+    "certainty": "high"
+  },
+  "war": {
+    "proto": "wīgą",
+    "certainty": "high"
+  },
+  "victory": {
+    "proto": "sigiz",
+    "certainty": "high"
+  },
+  "glory": {
+    "proto": "wulþuz",
+    "certainty": "high"
+  },
+  "honor": {
+    "proto": "airaz",
+    "certainty": "medium"
+  },
+  "death": {
+    "proto": "dawþuz",
+    "certainty": "high"
+  },
+  "wound": {
+    "proto": "wundō",
+    "certainty": "high"
+  },
+  "strength": {
+    "proto": "strangizō",
+    "certainty": "medium"
+  },
+  "power": {
+    "proto": "mahtiz",
+    "certainty": "high"
+  },
+  "god": {
+    "proto": "gudą",
+    "certainty": "high"
+  },
+  "goddess": {
+    "proto": "gudjō",
+    "certainty": "medium"
+  },
+  "odin": {
+    "proto": "Wōðanaz",
+    "certainty": "high",
+    "note": "chief god of the Æsir"
+  },
+  "thor": {
+    "proto": "Þunraz",
+    "certainty": "high",
+    "note": "god of thunder"
+  },
+  "freyr": {
+    "proto": "Frawjaz",
+    "certainty": "high",
+    "note": "Vanir god of fertility"
+  },
+  "freya": {
+    "proto": "Frawjō",
+    "certainty": "high",
+    "note": "Vanir goddess"
+  },
+  "tyr": {
+    "proto": "Tīwaz",
+    "certainty": "high",
+    "note": "god of justice and war"
+  },
+  "loki": {
+    "proto": "Lōkijaz",
+    "certainty": "low",
+    "note": "etymology disputed"
+  },
+  "thunder": {
+    "proto": "þunraz",
+    "certainty": "high"
+  },
+  "lightning": {
+    "proto": "leuhtą",
+    "certainty": "medium"
+  },
+  "rune": {
+    "proto": "rūnō",
+    "certainty": "high"
+  },
+  "fate": {
+    "proto": "wurdiz",
+    "certainty": "high",
+    "note": "cf. Old English wyrd"
+  },
+  "wyrd": {
+    "proto": "wurdiz",
+    "certainty": "high"
+  },
+  "magic": {
+    "proto": "galdrą",
+    "certainty": "high"
+  },
+  "elf": {
+    "proto": "albiz",
+    "certainty": "high"
+  },
+  "giant": {
+    "proto": "etunaz",
+    "certainty": "high"
+  },
+  "dragon": {
+    "proto": "drakanô",
+    "certainty": "medium",
+    "note": "early Greek loanword"
+  },
+  "world": {
+    "proto": "weraldiz",
+    "certainty": "high"
+  },
+  "yggdrasil": {
+    "proto": "Ihwaz",
+    "certainty": "low",
+    "note": "world-tree, lit. Odin's horse"
+  },
+  "day": {
+    "proto": "dagaz",
+    "certainty": "high"
+  },
+  "night": {
+    "proto": "nahtuz",
+    "certainty": "high"
+  },
+  "year": {
+    "proto": "jērą",
+    "certainty": "high"
+  },
+  "summer": {
+    "proto": "sumaraz",
+    "certainty": "high"
+  },
+  "winter": {
+    "proto": "wintruz",
+    "certainty": "high"
+  },
+  "spring": {
+    "proto": "langitīnaz",
+    "certainty": "medium"
+  },
+  "autumn": {
+    "proto": "harbistaz",
+    "certainty": "high"
+  },
+  "morning": {
+    "proto": "maurganaz",
+    "certainty": "high"
+  },
+  "evening": {
+    "proto": "ābanþaz",
+    "certainty": "medium"
+  },
+  "midday": {
+    "proto": "midja-dagaz",
+    "certainty": "medium"
+  },
+  "midnight": {
+    "proto": "midja-nahtuz",
+    "certainty": "medium"
+  },
+  "north": {
+    "proto": "nurþrą",
+    "certainty": "high"
+  },
+  "south": {
+    "proto": "sunþrą",
+    "certainty": "high"
+  },
+  "east": {
+    "proto": "austrą",
+    "certainty": "high"
+  },
+  "west": {
+    "proto": "westrą",
+    "certainty": "high"
+  },
+  "home": {
+    "proto": "haimaz",
+    "certainty": "high"
+  },
+  "house": {
+    "proto": "hūsą",
+    "certainty": "high"
+  },
+  "hall": {
+    "proto": "hallō",
+    "certainty": "high"
+  },
+  "door": {
+    "proto": "durz",
+    "certainty": "high"
+  },
+  "gate": {
+    "proto": "gatą",
+    "certainty": "high"
+  },
+  "bridge": {
+    "proto": "brugjō",
+    "certainty": "high"
+  },
+  "city": {
+    "proto": "burgz",
+    "certainty": "high"
+  },
+  "town": {
+    "proto": "tūną",
+    "certainty": "high"
+  },
+  "land": {
+    "proto": "landą",
+    "certainty": "high"
+  },
+  "kingdom": {
+    "proto": "þeudōkinją",
+    "certainty": "medium"
+  },
+  "ship": {
+    "proto": "skipą",
+    "certainty": "high"
+  },
+  "boat": {
+    "proto": "bataz",
+    "certainty": "high"
+  },
+  "sail": {
+    "proto": "seglijaną",
+    "certainty": "high"
+  },
+  "oar": {
+    "proto": "ārō",
+    "certainty": "high"
+  },
+  "mast": {
+    "proto": "mastaz",
+    "certainty": "medium"
+  },
+  "sea-king": {
+    "proto": "sāiwakuningaz",
+    "certainty": "low"
+  },
+  "gold": {
+    "proto": "gulþą",
+    "certainty": "high"
+  },
+  "silver": {
+    "proto": "silubrą",
+    "certainty": "high"
+  },
+  "iron": {
+    "proto": "īsarną",
+    "certainty": "high"
+  },
+  "bronze": {
+    "proto": "brunjō",
+    "certainty": "medium"
+  },
+  "copper": {
+    "proto": "kuparą",
+    "certainty": "medium",
+    "note": "early loanword"
+  },
+  "gem": {
+    "proto": "gimą",
+    "certainty": "medium"
+  },
+  "ring": {
+    "proto": "hringaz",
+    "certainty": "high"
+  },
+  "treasure": {
+    "proto": "huzdą",
+    "certainty": "high"
+  },
+  "name": {
+    "proto": "namô",
+    "certainty": "high"
+  },
+  "word": {
+    "proto": "wurdą",
+    "certainty": "high"
+  },
+  "song": {
+    "proto": "sangwaz",
+    "certainty": "high"
+  },
+  "speech": {
+    "proto": "sprakją",
+    "certainty": "medium"
+  },
+  "dream": {
+    "proto": "draumaz",
+    "certainty": "high"
+  },
+  "friend": {
+    "proto": "frijōndz",
+    "certainty": "medium"
+  },
+  "enemy": {
+    "proto": "fijandjaz",
+    "certainty": "high"
+  },
+  "guest": {
+    "proto": "gastiz",
+    "certainty": "high"
+  },
+  "gift": {
+    "proto": "gebaną",
+    "certainty": "high"
+  },
+  "good": {
+    "proto": "gōdaz",
+    "certainty": "high"
+  },
+  "evil": {
+    "proto": "ubilaz",
+    "certainty": "high"
+  },
+  "great": {
+    "proto": "grautaz",
+    "certainty": "high"
+  },
+  "small": {
+    "proto": "smalaz",
+    "certainty": "medium"
+  },
+  "old": {
+    "proto": "aldaz",
+    "certainty": "high"
+  },
+  "new": {
+    "proto": "niwjaz",
+    "certainty": "high"
+  },
+  "young": {
+    "proto": "jungaz",
+    "certainty": "high"
+  },
+  "strong": {
+    "proto": "strangaz",
+    "certainty": "medium"
+  },
+  "bold": {
+    "proto": "balþaz",
+    "certainty": "high"
+  },
+  "wise": {
+    "proto": "wīsaz",
+    "certainty": "high"
+  },
+  "holy": {
+    "proto": "hailagaz",
+    "certainty": "high"
+  },
+  "dark": {
+    "proto": "þimistraz",
+    "certainty": "medium"
+  },
+  "bright": {
+    "proto": "berhtaz",
+    "certainty": "high"
+  },
+  "high": {
+    "proto": "hauhaz",
+    "certainty": "high"
+  },
+  "deep": {
+    "proto": "diupaz",
+    "certainty": "high"
+  },
+  "long": {
+    "proto": "langaz",
+    "certainty": "high"
+  },
+  "far": {
+    "proto": "ferraz",
+    "certainty": "high"
+  },
+  "near": {
+    "proto": "nēhwaz",
+    "certainty": "high"
+  },
+  "fast": {
+    "proto": "snellaz",
+    "certainty": "medium"
+  },
+  "slow": {
+    "proto": "slawaz",
+    "certainty": "medium"
+  },
+  "red": {
+    "proto": "raudaz",
+    "certainty": "high"
+  },
+  "black": {
+    "proto": "swartaz",
+    "certainty": "high"
+  },
+  "white": {
+    "proto": "hwītaz",
+    "certainty": "high"
+  },
+  "grey": {
+    "proto": "grēwaz",
+    "certainty": "medium"
+  },
+  "green": {
+    "proto": "grōnijaz",
+    "certainty": "high"
+  },
+  "blue": {
+    "proto": "blēwaz",
+    "certainty": "high"
+  },
+  "true": {
+    "proto": "trewwaz",
+    "certainty": "high"
+  },
+  "free": {
+    "proto": "frijaz",
+    "certainty": "high"
+  },
+  "dead": {
+    "proto": "dawðaz",
+    "certainty": "high"
+  },
+  "alive": {
+    "proto": "libjandz",
+    "certainty": "medium"
+  },
+  "go": {
+    "proto": "ganą",
+    "certainty": "high"
+  },
+  "come": {
+    "proto": "kwemaną",
+    "certainty": "high"
+  },
+  "run": {
+    "proto": "rinnōną",
+    "certainty": "high"
+  },
+  "stand": {
+    "proto": "standaną",
+    "certainty": "high"
+  },
+  "sit": {
+    "proto": "sitjaną",
+    "certainty": "high"
+  },
+  "lie": {
+    "proto": "liganą",
+    "certainty": "high"
+  },
+  "see": {
+    "proto": "sehwaną",
+    "certainty": "high"
+  },
+  "hear": {
+    "proto": "hauzijaną",
+    "certainty": "high"
+  },
+  "know": {
+    "proto": "witaną",
+    "certainty": "high"
+  },
+  "speak": {
+    "proto": "sprekōną",
+    "certainty": "medium"
+  },
+  "sing": {
+    "proto": "singwaną",
+    "certainty": "high"
+  },
+  "eat": {
+    "proto": "etaną",
+    "certainty": "high"
+  },
+  "drink": {
+    "proto": "drinkaną",
+    "certainty": "high"
+  },
+  "sleep": {
+    "proto": "slepijaną",
+    "certainty": "high"
+  },
+  "live": {
+    "proto": "libaną",
+    "certainty": "high"
+  },
+  "die": {
+    "proto": "deujaną",
+    "certainty": "high"
+  },
+  "fight": {
+    "proto": "wīganą",
+    "certainty": "high"
+  },
+  "strike": {
+    "proto": "strīkaną",
+    "certainty": "medium"
+  },
+  "kill": {
+    "proto": "kwalijaną",
+    "certainty": "medium"
+  },
+  "give": {
+    "proto": "gebaną",
+    "certainty": "high"
+  },
+  "take": {
+    "proto": "nemaną",
+    "certainty": "high"
+  },
+  "hold": {
+    "proto": "haldaną",
+    "certainty": "high"
+  },
+  "make": {
+    "proto": "wurkijaną",
+    "certainty": "high"
+  },
+  "build": {
+    "proto": "timbijaną",
+    "certainty": "high"
+  },
+  "rule": {
+    "proto": "waldaną",
+    "certainty": "high"
+  },
+  "love": {
+    "proto": "lubōją",
+    "certainty": "high"
+  },
+  "hate": {
+    "proto": "hatōną",
+    "certainty": "high"
+  },
+  "fear": {
+    "proto": "furhtijaną",
+    "certainty": "high"
+  },
+  "bread": {
+    "proto": "braudą",
+    "certainty": "high"
+  },
+  "meat": {
+    "proto": "matiz",
+    "certainty": "medium"
+  },
+  "mead": {
+    "proto": "meduz",
+    "certainty": "high"
+  },
+  "ale": {
+    "proto": "alu",
+    "certainty": "high"
+  },
+  "milk": {
+    "proto": "meluks",
+    "certainty": "high"
+  },
+  "salt": {
+    "proto": "saltą",
+    "certainty": "high"
+  },
+  "seed": {
+    "proto": "sēdiz",
+    "certainty": "high"
+  },
+  "grain": {
+    "proto": "kurną",
+    "certainty": "high"
+  },
+  "net": {
+    "proto": "netją",
+    "certainty": "high"
+  },
+  "rope": {
+    "proto": "raipaz",
+    "certainty": "medium"
+  },
+  "tool": {
+    "proto": "tōlą",
+    "certainty": "high"
+  },
+  "swim": {
+    "proto": "swimmaną",
+    "certainty": "high"
+  },
+  "ride": {
+    "proto": "rīdaną",
+    "certainty": "high"
+  },
+  "burn": {
+    "proto": "brinnaną",
+    "certainty": "high"
+  },
+  "cut": {
+    "proto": "snīþaną",
+    "certainty": "high"
+  },
+  "bind": {
+    "proto": "bindaną",
+    "certainty": "high"
+  },
+  "break": {
+    "proto": "brekaną",
+    "certainty": "high"
+  },
+  "fall": {
+    "proto": "fallaną",
+    "certainty": "high"
+  },
+  "rise": {
+    "proto": "rīsaną",
+    "certainty": "high"
+  },
+  "walk": {
+    "proto": "ganganą",
+    "certainty": "high"
+  },
+  "climb": {
+    "proto": "klimbaną",
+    "certainty": "high"
+  },
+  "throw": {
+    "proto": "þraihaną",
+    "certainty": "medium"
+  },
+  "carry": {
+    "proto": "beraną",
+    "certainty": "high"
+  },
+  "send": {
+    "proto": "sandijaną",
+    "certainty": "high"
+  },
+  "call": {
+    "proto": "kallaną",
+    "certainty": "high"
+  },
+  "shout": {
+    "proto": "hrōpaną",
+    "certainty": "high"
+  },
+  "think": {
+    "proto": "þenkaną",
+    "certainty": "high"
+  },
+  "remember": {
+    "proto": "gamundijaną",
+    "certainty": "medium"
+  },
+  "find": {
+    "proto": "finþaną",
+    "certainty": "high"
+  },
+  "seek": {
+    "proto": "sōkijaną",
+    "certainty": "high"
+  },
+  "guard": {
+    "proto": "wardōną",
+    "certainty": "high"
+  },
+  "follow": {
+    "proto": "falganą",
+    "certainty": "medium"
+  },
+  "lead": {
+    "proto": "laidijaną",
+    "certainty": "high"
+  },
+  "weave": {
+    "proto": "webaną",
+    "certainty": "high"
+  },
+  "heal": {
+    "proto": "hailijaną",
+    "certainty": "high"
+  },
+  "weep": {
+    "proto": "wōpijaną",
+    "certainty": "medium"
+  },
+  "laugh": {
+    "proto": "hlahjaną",
+    "certainty": "high"
+  },
+  "pray": {
+    "proto": "bidjaną",
+    "certainty": "high"
+  },
+  "hunt": {
+    "proto": "hunþōną",
+    "certainty": "high"
+  },
+  "return": {
+    "proto": "wandijaną",
+    "certainty": "medium"
+  },
+  "carve": {
+    "proto": "kerwaną",
+    "certainty": "medium"
+  },
+  "pour": {
+    "proto": "geutaną",
+    "certainty": "high"
+  },
+  "flow": {
+    "proto": "flōwaną",
+    "certainty": "high"
+  },
+  "shine": {
+    "proto": "skīnaną",
+    "certainty": "high"
+  },
+  "grow": {
+    "proto": "grōaną",
+    "certainty": "high"
+  },
+  "sow": {
+    "proto": "sēaną",
+    "certainty": "high"
+  },
+  "row": {
+    "proto": "rōaną",
+    "certainty": "high"
+  },
+  "swear": {
+    "proto": "swarjaną",
+    "certainty": "high"
+  },
+  "choose": {
+    "proto": "kiusaną",
+    "certainty": "high"
+  },
+  "buy": {
+    "proto": "kaupaną",
+    "certainty": "high"
+  },
+  "sell": {
+    "proto": "salaną",
+    "certainty": "medium"
+  },
+  "win": {
+    "proto": "winnaną",
+    "certainty": "high"
+  },
+  "help": {
+    "proto": "helpaną",
+    "certainty": "high"
+  },
+  "wait": {
+    "proto": "bīdaną",
+    "certainty": "high"
+  },
+  "pull": {
+    "proto": "teuhaną",
+    "certainty": "high"
+  },
+  "push": {
+    "proto": "þrūstaną",
+    "certainty": "medium"
+  },
+  "bite": {
+    "proto": "bītaną",
+    "certainty": "high"
+  },
+  "hide": {
+    "proto": "hulijaną",
+    "certainty": "high"
+  },
+  "spin": {
+    "proto": "spinnaną",
+    "certainty": "high"
+  },
+  "forge": {
+    "proto": "smiþōną",
+    "certainty": "medium"
+  },
+  "cold": {
+    "proto": "kaldaz",
+    "certainty": "high"
+  },
+  "hot": {
+    "proto": "haitaz",
+    "certainty": "high"
+  },
+  "warm": {
+    "proto": "warmaz",
+    "certainty": "high"
+  },
+  "wet": {
+    "proto": "wētaz",
+    "certainty": "high"
+  },
+  "dry": {
+    "proto": "þūrsijaz",
+    "certainty": "high"
+  },
+  "hard": {
+    "proto": "harduz",
+    "certainty": "high"
+  },
+  "soft": {
+    "proto": "samftaz",
+    "certainty": "medium"
+  },
+  "sharp": {
+    "proto": "skarpaz",
+    "certainty": "high"
+  },
+  "heavy": {
+    "proto": "swēraz",
+    "certainty": "high"
+  },
+  "full": {
+    "proto": "fullaz",
+    "certainty": "high"
+  },
+  "empty": {
+    "proto": "ōmaz",
+    "certainty": "medium"
+  },
+  "foul": {
+    "proto": "fūlaz",
+    "certainty": "high"
+  },
+  "mighty": {
+    "proto": "mahtīgaz",
+    "certainty": "high"
+  },
+  "fierce": {
+    "proto": "grimaz",
+    "certainty": "medium"
+  },
+  "wide": {
+    "proto": "wīdaz",
+    "certainty": "high"
+  },
+  "narrow": {
+    "proto": "þrangaz",
+    "certainty": "high"
+  },
+  "short": {
+    "proto": "skurtaz",
+    "certainty": "high"
+  },
+  "rich": {
+    "proto": "rīkijaz",
+    "certainty": "high"
+  },
+  "poor": {
+    "proto": "armaz",
+    "certainty": "high"
+  },
+  "blind": {
+    "proto": "blindaz",
+    "certainty": "high"
+  },
+  "deaf": {
+    "proto": "dawbaz",
+    "certainty": "high"
+  },
+  "sick": {
+    "proto": "seukaz",
+    "certainty": "high"
+  },
+  "healthy": {
+    "proto": "hailaz",
+    "certainty": "high"
+  },
+  "hungry": {
+    "proto": "hungrīgaz",
+    "certainty": "medium"
+  },
+  "thirsty": {
+    "proto": "þurstīgaz",
+    "certainty": "medium"
+  },
+  "silent": {
+    "proto": "stiljaz",
+    "certainty": "medium"
+  },
+  "loud": {
+    "proto": "hlūdaz",
+    "certainty": "high"
+  },
+  "swift": {
+    "proto": "hrāþaz",
+    "certainty": "high"
+  },
+  "beautiful": {
+    "proto": "skōnijaz",
+    "certainty": "high"
+  },
+  "sacred": {
+    "proto": "wīhaz",
+    "certainty": "high"
+  },
+  "worthy": {
+    "proto": "werþaz",
+    "certainty": "high"
+  },
+  "golden": {
+    "proto": "gulþīnaz",
+    "certainty": "high"
+  },
+  "broad": {
+    "proto": "braidaz",
+    "certainty": "high"
+  },
+  "grim": {
+    "proto": "grimaz",
+    "certainty": "high"
+  },
+  "noble": {
+    "proto": "aþalaz",
+    "certainty": "high"
+  },
+  "raw": {
+    "proto": "hrēwaz",
+    "certainty": "high"
+  },
+  "ripe": {
+    "proto": "rīpaz",
+    "certainty": "high"
+  },
+  "weary": {
+    "proto": "wōrigaz",
+    "certainty": "medium"
+  },
+  "light": {
+    "proto": "lingwaz",
+    "certainty": "high",
+    "note": "light in weight"
+  },
+  "anger": {
+    "proto": "wōþaz",
+    "certainty": "high"
+  },
+  "rage": {
+    "proto": "wōþaz",
+    "certainty": "high"
+  },
+  "fury": {
+    "proto": "wōþaz",
+    "certainty": "high",
+    "note": "root of Wōðanaz/Odin"
+  },
+  "grief": {
+    "proto": "harmaz",
+    "certainty": "medium"
+  },
+  "sorrow": {
+    "proto": "saurizō",
+    "certainty": "medium"
+  },
+  "joy": {
+    "proto": "wunnijō",
+    "certainty": "high",
+    "note": "root of Wunjo rune"
+  },
+  "shame": {
+    "proto": "skamō",
+    "certainty": "high"
+  },
+  "pride": {
+    "proto": "gilpaz",
+    "certainty": "medium"
+  },
+  "pain": {
+    "proto": "sairaz",
+    "certainty": "medium"
+  },
+  "longing": {
+    "proto": "langōþō",
+    "certainty": "medium"
+  },
+  "hope": {
+    "proto": "wēnō",
+    "certainty": "medium"
+  },
+  "envy": {
+    "proto": "nīdaz",
+    "certainty": "high"
+  },
+  "courage": {
+    "proto": "mōdaz",
+    "certainty": "high"
+  },
+  "doom": {
+    "proto": "dōmaz",
+    "certainty": "high"
+  },
+  "luck": {
+    "proto": "audaz",
+    "certainty": "medium"
+  },
+  "wisdom": {
+    "proto": "wīsdōmaz",
+    "certainty": "high"
+  },
+  "lore": {
+    "proto": "laizō",
+    "certainty": "high"
+  },
+  "mind": {
+    "proto": "hugaz",
+    "certainty": "high"
+  },
+  "thought": {
+    "proto": "þanhaz",
+    "certainty": "high"
+  },
+  "will": {
+    "proto": "wiljō",
+    "certainty": "high"
+  },
+  "truth": {
+    "proto": "treuwō",
+    "certainty": "high"
+  },
+  "memory": {
+    "proto": "gamundiz",
+    "certainty": "medium"
+  },
+  "oath": {
+    "proto": "aiþaz",
+    "certainty": "high"
+  },
+  "law": {
+    "proto": "lagą",
+    "certainty": "high"
+  },
+  "peace": {
+    "proto": "friþuz",
+    "certainty": "high"
+  },
+  "falsehood": {
+    "proto": "liugnō",
+    "certainty": "high"
+  },
+  "offering": {
+    "proto": "blōtą",
+    "certainty": "high"
+  },
+  "pact": {
+    "proto": "friþubandą",
+    "certainty": "medium"
+  },
+  "valhalla": {
+    "proto": "Walhallō",
+    "certainty": "high",
+    "note": "hall of the slain warriors"
+  },
+  "asgard": {
+    "proto": "Asagardaz",
+    "certainty": "high",
+    "note": "enclosure of the Æsir"
+  },
+  "midgard": {
+    "proto": "Midjagardaz",
+    "certainty": "high",
+    "note": "middle world, realm of men"
+  },
+  "hel": {
+    "proto": "Halją",
+    "certainty": "high",
+    "note": "realm of the dishonoured dead"
+  },
+  "jotunheim": {
+    "proto": "Etunhaima",
+    "certainty": "medium",
+    "note": "realm of the giants"
+  },
+  "bifrost": {
+    "proto": "Biwrōstō",
+    "certainty": "medium",
+    "note": "trembling rainbow bridge"
+  },
+  "valkyrie": {
+    "proto": "Walhakurjō",
+    "certainty": "high",
+    "note": "chooser of the slain"
+  },
+  "norn": {
+    "proto": "Nornō",
+    "certainty": "high",
+    "note": "fate-weaver"
+  },
+  "ymir": {
+    "proto": "Jumijaz",
+    "certainty": "medium",
+    "note": "primordial giant"
+  },
+  "fenrir": {
+    "proto": "Fenjarijaz",
+    "certainty": "medium",
+    "note": "the great wolf"
+  },
+  "huginn": {
+    "proto": "Huginaz",
+    "certainty": "medium",
+    "note": "Odin's raven of thought"
+  },
+  "muninn": {
+    "proto": "Munaz",
+    "certainty": "medium",
+    "note": "Odin's raven of memory"
+  },
+  "aesir": {
+    "proto": "Ansiwīz",
+    "certainty": "high",
+    "note": "tribe of sky gods"
+  },
+  "vanir": {
+    "proto": "Waniwīz",
+    "certainty": "medium",
+    "note": "tribe of fertility gods"
+  },
+  "ragnarok": {
+    "proto": "ragnōrōkō",
+    "certainty": "high",
+    "note": "doom of the divine powers"
+  },
+  "seidr": {
+    "proto": "saiðaz",
+    "certainty": "medium",
+    "note": "Norse shamanic magic"
+  },
+  "blot": {
+    "proto": "blōtą",
+    "certainty": "high",
+    "note": "blood sacrifice"
+  },
+  "thing": {
+    "proto": "þingą",
+    "certainty": "high",
+    "note": "assembly, lawgiving council"
+  },
+  "skald": {
+    "proto": "skaldaz",
+    "certainty": "medium",
+    "note": "warrior-poet"
+  },
+  "valknut": {
+    "proto": "Walhaknutaz",
+    "certainty": "low",
+    "note": "knot of the slain, Odin's symbol"
+  },
+  "oak": {
+    "proto": "aikaz",
+    "certainty": "high"
+  },
+  "ash": {
+    "proto": "askaz",
+    "certainty": "high",
+    "note": "ash tree; the world-tree Yggdrasil"
+  },
+  "yew": {
+    "proto": "īwaz",
+    "certainty": "high",
+    "note": "Ihwaz rune"
+  },
+  "birch": {
+    "proto": "berkō",
+    "certainty": "high",
+    "note": "Berkanan rune"
+  },
+  "thorn": {
+    "proto": "þurnaz",
+    "certainty": "high",
+    "note": "Thurisaz rune"
+  },
+  "grass": {
+    "proto": "grasą",
+    "certainty": "high"
+  },
+  "reed": {
+    "proto": "hriadaz",
+    "certainty": "medium"
+  },
+  "moss": {
+    "proto": "musgō",
+    "certainty": "high"
+  },
+  "leaf": {
+    "proto": "laubaz",
+    "certainty": "high"
+  },
+  "root": {
+    "proto": "wōts",
+    "certainty": "high"
+  },
+  "branch": {
+    "proto": "astaz",
+    "certainty": "medium"
+  },
+  "bark": {
+    "proto": "barkuz",
+    "certainty": "medium"
+  },
+  "berry": {
+    "proto": "bazją",
+    "certainty": "medium"
+  },
+  "flower": {
+    "proto": "blōmô",
+    "certainty": "high"
+  },
+  "heath": {
+    "proto": "haiþaz",
+    "certainty": "high"
+  },
+  "grove": {
+    "proto": "harugaz",
+    "certainty": "high",
+    "note": "sacred grove used for ritual"
+  },
+  "ivy": {
+    "proto": "ibijōn",
+    "certainty": "medium"
+  },
+  "pine": {
+    "proto": "fūrjō",
+    "certainty": "medium"
+  },
+  "elm": {
+    "proto": "elmaz",
+    "certainty": "high"
+  },
+  "willow": {
+    "proto": "wīþijō",
+    "certainty": "high"
+  },
+  "smoke": {
+    "proto": "raukaz",
+    "certainty": "high"
+  },
+  "ashes": {
+    "proto": "askōn",
+    "certainty": "high"
+  },
+  "ember": {
+    "proto": "aimerō",
+    "certainty": "medium"
+  },
+  "spark": {
+    "proto": "sparkô",
+    "certainty": "medium"
+  },
+  "flame": {
+    "proto": "lōgaz",
+    "certainty": "medium"
+  },
+  "cloud": {
+    "proto": "wulkną",
+    "certainty": "high"
+  },
+  "fog": {
+    "proto": "mēlaz",
+    "certainty": "medium"
+  },
+  "mist": {
+    "proto": "mihistaz",
+    "certainty": "medium"
+  },
+  "wave": {
+    "proto": "wōgaz",
+    "certainty": "high"
+  },
+  "tide": {
+    "proto": "tīdō",
+    "certainty": "high"
+  },
+  "dew": {
+    "proto": "dawwaz",
+    "certainty": "high"
+  },
+  "hail": {
+    "proto": "haglaz",
+    "certainty": "high",
+    "note": "Hagalaz rune"
+  },
+  "shadow": {
+    "proto": "skadwaz",
+    "certainty": "high"
+  },
+  "flood": {
+    "proto": "flōduz",
+    "certainty": "high"
+  },
+  "rainbow": {
+    "proto": "regnabugō",
+    "certainty": "medium"
+  },
+  "drought": {
+    "proto": "drugaþō",
+    "certainty": "medium"
+  },
+  "wrist": {
+    "proto": "wrihstiz",
+    "certainty": "medium"
+  },
+  "elbow": {
+    "proto": "alinabōgaz",
+    "certainty": "high"
+  },
+  "cheek": {
+    "proto": "kinnuz",
+    "certainty": "high"
+  },
+  "brow": {
+    "proto": "brūwō",
+    "certainty": "high"
+  },
+  "forehead": {
+    "proto": "andahaubudą",
+    "certainty": "medium"
+  },
+  "palm": {
+    "proto": "folmō",
+    "certainty": "high"
+  },
+  "nail": {
+    "proto": "naglaz",
+    "certainty": "high"
+  },
+  "claw": {
+    "proto": "klawō",
+    "certainty": "medium"
+  },
+  "rib": {
+    "proto": "ribbō",
+    "certainty": "high"
+  },
+  "hip": {
+    "proto": "hupaz",
+    "certainty": "high"
+  },
+  "ankle": {
+    "proto": "ankōn",
+    "certainty": "high"
+  },
+  "flesh": {
+    "proto": "flaiski",
+    "certainty": "high"
+  },
+  "sweat": {
+    "proto": "swaitaz",
+    "certainty": "high"
+  },
+  "tear": {
+    "proto": "tahrō",
+    "certainty": "high"
+  },
+  "marrow": {
+    "proto": "mazgaz",
+    "certainty": "high"
+  },
+  "sinew": {
+    "proto": "sinwą",
+    "certainty": "medium"
+  },
+  "navel": {
+    "proto": "nabalō",
+    "certainty": "high"
+  },
+  "brain": {
+    "proto": "bragnaz",
+    "certainty": "medium"
+  },
+  "fat": {
+    "proto": "faitą",
+    "certainty": "medium"
+  },
+  "earl": {
+    "proto": "erlaz",
+    "certainty": "high",
+    "note": "nobleman, jarl"
+  },
+  "jarl": {
+    "proto": "erlaz",
+    "certainty": "high"
+  },
+  "smith": {
+    "proto": "smiþaz",
+    "certainty": "high"
+  },
+  "farmer": {
+    "proto": "arjaz",
+    "certainty": "high"
+  },
+  "hunter": {
+    "proto": "hunþaz",
+    "certainty": "medium"
+  },
+  "healer": {
+    "proto": "hailijanô",
+    "certainty": "medium"
+  },
+  "outlaw": {
+    "proto": "utlagaz",
+    "certainty": "high"
+  },
+  "prophetess": {
+    "proto": "wōlbō",
+    "certainty": "medium",
+    "note": "völva, seeress"
+  },
+  "assembly": {
+    "proto": "þingą",
+    "certainty": "high"
+  },
+  "feast": {
+    "proto": "gastimōtaz",
+    "certainty": "medium"
+  },
+  "burial-mound": {
+    "proto": "haugaz",
+    "certainty": "high",
+    "note": "burial mound, hörgr"
+  },
+  "cup": {
+    "proto": "kuppaz",
+    "certainty": "medium"
+  },
+  "bowl": {
+    "proto": "bōllaz",
+    "certainty": "medium"
+  },
+  "cauldron": {
+    "proto": "katilaz",
+    "certainty": "high"
+  },
+  "hearth": {
+    "proto": "herþaz",
+    "certainty": "high"
+  },
+  "hammer": {
+    "proto": "hamaraz",
+    "certainty": "high",
+    "note": "Mjolnir root"
+  },
+  "anvil": {
+    "proto": "anafilhiz",
+    "certainty": "medium"
+  },
+  "tongs": {
+    "proto": "tangō",
+    "certainty": "medium"
+  },
+  "key": {
+    "proto": "lūkilaz",
+    "certainty": "medium"
+  },
+  "lock": {
+    "proto": "luką",
+    "certainty": "medium"
+  },
+  "chain": {
+    "proto": "kēdan",
+    "certainty": "medium"
+  },
+  "bed": {
+    "proto": "badjaz",
+    "certainty": "high"
+  },
+  "bench": {
+    "proto": "bankiz",
+    "certainty": "high"
+  },
+  "table": {
+    "proto": "burdjaz",
+    "certainty": "high"
+  },
+  "roof": {
+    "proto": "hrōfaz",
+    "certainty": "high"
+  },
+  "floor": {
+    "proto": "flōraz",
+    "certainty": "high"
+  },
+  "wall": {
+    "proto": "wallō",
+    "certainty": "high"
+  },
+  "torch": {
+    "proto": "tarkō",
+    "certainty": "medium"
+  },
+  "bag": {
+    "proto": "baggaz",
+    "certainty": "medium"
+  },
+  "cloak": {
+    "proto": "hakijō",
+    "certainty": "medium"
+  },
+  "tunic": {
+    "proto": "hambō",
+    "certainty": "medium"
+  },
+  "belt": {
+    "proto": "baltjaz",
+    "certainty": "high"
+  },
+  "boot": {
+    "proto": "skōhaz",
+    "certainty": "high"
+  },
+  "cloth": {
+    "proto": "klaiþą",
+    "certainty": "high"
+  },
+  "thread": {
+    "proto": "þrēdaz",
+    "certainty": "high"
+  },
+  "needle": {
+    "proto": "nēþlō",
+    "certainty": "high"
+  },
+  "weapon": {
+    "proto": "wēpną",
+    "certainty": "high"
+  },
+  "armor": {
+    "proto": "harnaską",
+    "certainty": "high"
+  },
+  "grave": {
+    "proto": "grabą",
+    "certainty": "high"
+  },
+  "pyre": {
+    "proto": "bālą",
+    "certainty": "high"
+  },
+  "corpse": {
+    "proto": "nabjaz",
+    "certainty": "medium"
+  },
+  "ghost": {
+    "proto": "gaistaz",
+    "certainty": "high"
+  },
+  "horn": {
+    "proto": "hurną",
+    "certainty": "high"
+  },
+  "harp": {
+    "proto": "harpō",
+    "certainty": "high"
+  },
+  "pool": {
+    "proto": "pōlaz",
+    "certainty": "high"
+  },
+  "bull": {
+    "proto": "bulluz",
+    "certainty": "high"
+  },
+  "calf": {
+    "proto": "kalbaz",
+    "certainty": "high"
+  },
+  "goat": {
+    "proto": "gaitz",
+    "certainty": "high"
+  },
+  "lamb": {
+    "proto": "lambaz",
+    "certainty": "high"
+  },
+  "stag": {
+    "proto": "stagaz",
+    "certainty": "medium"
+  },
+  "otter": {
+    "proto": "utraz",
+    "certainty": "high"
+  },
+  "owl": {
+    "proto": "ūwilō",
+    "certainty": "medium"
+  },
+  "crane": {
+    "proto": "kranōn",
+    "certainty": "high"
+  },
+  "duck": {
+    "proto": "anadz",
+    "certainty": "high"
+  },
+  "mouse": {
+    "proto": "mūs",
+    "certainty": "high"
+  },
+  "spider": {
+    "proto": "spinþōn",
+    "certainty": "medium"
+  },
+  "ant": {
+    "proto": "amaitijō",
+    "certainty": "medium"
+  },
+  "eel": {
+    "proto": "ālaz",
+    "certainty": "high"
+  },
+  "marten": {
+    "proto": "marþuz",
+    "certainty": "medium"
+  },
+  "yellow": {
+    "proto": "gulaz",
+    "certainty": "high"
+  },
+  "brown": {
+    "proto": "brunaz",
+    "certainty": "high"
+  },
+  "keel": {
+    "proto": "keulaz",
+    "certainty": "high"
+  },
+  "prow": {
+    "proto": "stamną",
+    "certainty": "medium"
+  },
+  "stern": {
+    "proto": "stabnaz",
+    "certainty": "medium"
+  },
+  "rudder": {
+    "proto": "rōþraz",
+    "certainty": "high"
+  },
+  "hull": {
+    "proto": "hulą",
+    "certainty": "medium"
+  },
+  "eleven": {
+    "proto": "ainalif",
+    "certainty": "high"
+  },
+  "twelve": {
+    "proto": "twalif",
+    "certainty": "high"
+  },
+  "twenty": {
+    "proto": "twaintigiwiz",
+    "certainty": "medium"
+  },
+  "first": {
+    "proto": "frumaz",
+    "certainty": "high"
+  },
+  "last": {
+    "proto": "latistaz",
+    "certainty": "high"
+  },
+  "half": {
+    "proto": "halbaz",
+    "certainty": "high"
+  },
+  "other": {
+    "proto": "anþeraz",
+    "certainty": "high"
+  },
+  "many": {
+    "proto": "managaz",
+    "certainty": "high"
+  },
+  "few": {
+    "proto": "fawaz",
+    "certainty": "high"
+  },
+  "all": {
+    "proto": "allaz",
+    "certainty": "high"
+  },
+  "up": {
+    "proto": "uppaz",
+    "certainty": "high"
+  },
+  "down": {
+    "proto": "niþeraz",
+    "certainty": "high"
+  },
+  "left": {
+    "proto": "winistraz",
+    "certainty": "medium"
+  },
+  "right": {
+    "proto": "dekstwaz",
+    "certainty": "medium"
+  },
+  "middle": {
+    "proto": "midjaz",
+    "certainty": "high"
+  },
+  "inside": {
+    "proto": "innaz",
+    "certainty": "high"
+  },
+  "outside": {
+    "proto": "ūtaz",
+    "certainty": "high"
+  },
+  "above": {
+    "proto": "ubari",
+    "certainty": "high"
+  },
+  "below": {
+    "proto": "undar",
+    "certainty": "high"
+  },
+  "before": {
+    "proto": "furai",
+    "certainty": "high"
+  },
+  "after": {
+    "proto": "aftar",
+    "certainty": "high"
+  },
+  "honey": {
+    "proto": "hunangaz",
+    "certainty": "high"
+  },
+  "porridge": {
+    "proto": "grutaz",
+    "certainty": "medium"
+  },
+  "dawn": {
+    "proto": "dagōn",
+    "certainty": "medium"
+  },
+  "dusk": {
+    "proto": "kweldą",
+    "certainty": "medium"
+  },
+  "twilight": {
+    "proto": "skumōną",
+    "certainty": "low"
+  },
+  "age": {
+    "proto": "ēwō",
+    "certainty": "medium"
+  },
+  "moment": {
+    "proto": "hwilō",
+    "certainty": "high"
+  },
+  "eternity": {
+    "proto": "ēwanō",
+    "certainty": "medium"
+  },
+  "dust": {
+    "proto": "dustą",
+    "certainty": "high"
+  },
+  "clay": {
+    "proto": "klajją",
+    "certainty": "high"
+  },
+  "glass": {
+    "proto": "glasą",
+    "certainty": "high"
+  },
+  "leather": {
+    "proto": "leþrą",
+    "certainty": "high"
+  },
+  "wool": {
+    "proto": "wullō",
+    "certainty": "high"
+  },
+  "i": {
+    "proto": "ek",
+    "certainty": "high"
+  },
+  "you": {
+    "proto": "þū",
+    "certainty": "high"
+  },
+  "he": {
+    "proto": "iz",
+    "certainty": "high"
+  },
+  "she": {
+    "proto": "sijō",
+    "certainty": "high"
+  },
+  "we": {
+    "proto": "wīz",
+    "certainty": "high"
+  },
+  "they": {
+    "proto": "þīz",
+    "certainty": "medium"
+  },
+  "me": {
+    "proto": "mek",
+    "certainty": "high"
+  },
+  "us": {
+    "proto": "uns",
+    "certainty": "high"
+  },
+  "helm": {
+    "proto": "helmaz",
+    "certainty": "high"
+  },
+  "blade": {
+    "proto": "bladą",
+    "certainty": "medium"
+  },
+  "runic": {
+    "proto": "rūnō",
+    "certainty": "medium"
+  },
+  "say": {
+    "proto": "sagjaną",
+    "certainty": "high"
+  },
+  "tell": {
+    "proto": "taljaną",
+    "certainty": "high"
+  },
+  "ask": {
+    "proto": "fragnijaną",
+    "certainty": "high"
+  },
+  "answer": {
+    "proto": "andwurdijaną",
+    "certainty": "high"
+  },
+  "work": {
+    "proto": "wirkaną",
+    "certainty": "high"
+  },
+  "learn": {
+    "proto": "liznōną",
+    "certainty": "high"
+  },
+  "teach": {
+    "proto": "laizijaną",
+    "certainty": "high"
+  },
+  "sew": {
+    "proto": "siwjaną",
+    "certainty": "high"
+  },
+  "bake": {
+    "proto": "bakaną",
+    "certainty": "high"
+  },
+  "brew": {
+    "proto": "brūwaną",
+    "certainty": "high"
+  },
+  "leap": {
+    "proto": "hlaupjaną",
+    "certainty": "high"
+  },
+  "creep": {
+    "proto": "kreupaną",
+    "certainty": "high"
+  },
+  "bend": {
+    "proto": "bandijaną",
+    "certainty": "high"
+  },
+  "wash": {
+    "proto": "þwahaną",
+    "certainty": "high"
+  },
+  "lose": {
+    "proto": "leusaną",
+    "certainty": "high"
+  },
+  "trade": {
+    "proto": "kaupōną",
+    "certainty": "high"
+  },
+  "gather": {
+    "proto": "gadrōną",
+    "certainty": "high"
+  },
+  "steal": {
+    "proto": "stalaną",
+    "certainty": "high"
+  },
+  "grind": {
+    "proto": "grindaną",
+    "certainty": "high"
+  },
+  "reap": {
+    "proto": "raupaną",
+    "certainty": "high"
+  },
+  "plow": {
+    "proto": "plōgaz",
+    "certainty": "medium"
+  },
+  "measure": {
+    "proto": "metaną",
+    "certainty": "high"
+  },
+  "dig": {
+    "proto": "grabaną",
+    "certainty": "high"
+  },
+  "split": {
+    "proto": "spaltaną",
+    "certainty": "high"
+  },
+  "flee": {
+    "proto": "fleuhaną",
+    "certainty": "high"
+  },
+  "chase": {
+    "proto": "jagōną",
+    "certainty": "medium"
+  },
+  "wander": {
+    "proto": "wandrōną",
+    "certainty": "high"
+  },
+  "travel": {
+    "proto": "fāraną",
+    "certainty": "high"
+  },
+  "depart": {
+    "proto": "fāraną",
+    "certainty": "high"
+  },
+  "close": {
+    "proto": "sleutaną",
+    "certainty": "high"
+  },
+  "lift": {
+    "proto": "luftijaną",
+    "certainty": "high"
+  },
+  "touch": {
+    "proto": "hrīnaną",
+    "certainty": "high"
+  },
+  "taste": {
+    "proto": "smakōną",
+    "certainty": "high"
+  },
+  "wake": {
+    "proto": "wakōną",
+    "certainty": "high"
+  },
+  "guide": {
+    "proto": "wīsijaną",
+    "certainty": "high"
+  },
+  "hit": {
+    "proto": "slahaną",
+    "certainty": "high"
+  },
+  "fen": {
+    "proto": "fanją",
+    "certainty": "high"
+  },
+  "meadow": {
+    "proto": "madwō",
+    "certainty": "high"
+  },
+  "moor": {
+    "proto": "mōraz",
+    "certainty": "high"
+  },
+  "ford": {
+    "proto": "furduz",
+    "certainty": "high"
+  },
+  "harbor": {
+    "proto": "hafnō",
+    "certainty": "high"
+  },
+  "fjord": {
+    "proto": "ferþuz",
+    "certainty": "high"
+  },
+  "dune": {
+    "proto": "dūnō",
+    "certainty": "high"
+  },
+  "plain": {
+    "proto": "flatją",
+    "certainty": "medium"
+  },
+  "thicket": {
+    "proto": "þikwitą",
+    "certainty": "medium"
+  },
+  "bog": {
+    "proto": "bogwaz",
+    "certainty": "medium"
+  },
+  "salmon": {
+    "proto": "lagsaz",
+    "certainty": "high"
+  },
+  "herring": {
+    "proto": "haringaz",
+    "certainty": "high"
+  },
+  "trout": {
+    "proto": "truhtō",
+    "certainty": "medium"
+  },
+  "pike": {
+    "proto": "pīkaz",
+    "certainty": "medium"
+  },
+  "rook": {
+    "proto": "hrōkaz",
+    "certainty": "high"
+  },
+  "sparrow": {
+    "proto": "sparwaz",
+    "certainty": "high"
+  },
+  "finch": {
+    "proto": "finkaz",
+    "certainty": "high"
+  },
+  "starling": {
+    "proto": "staraz",
+    "certainty": "high"
+  },
+  "thrush": {
+    "proto": "þrustilō",
+    "certainty": "high"
+  },
+  "cuckoo": {
+    "proto": "gaukaz",
+    "certainty": "high"
+  },
+  "stork": {
+    "proto": "sturkaz",
+    "certainty": "high"
+  },
+  "woodpecker": {
+    "proto": "spehtaz",
+    "certainty": "high"
+  },
+  "weasel": {
+    "proto": "wisulō",
+    "certainty": "high"
+  },
+  "lynx": {
+    "proto": "luhsaz",
+    "certainty": "high"
+  },
+  "mole": {
+    "proto": "maldwarpaz",
+    "certainty": "high"
+  },
+  "frog": {
+    "proto": "frusgaz",
+    "certainty": "medium"
+  },
+  "toad": {
+    "proto": "þadwō",
+    "certainty": "medium"
+  },
+  "beetle": {
+    "proto": "bitilaz",
+    "certainty": "high"
+  },
+  "flea": {
+    "proto": "flauhaz",
+    "certainty": "high"
+  },
+  "louse": {
+    "proto": "lūsaz",
+    "certainty": "high"
+  },
+  "wasp": {
+    "proto": "wapsō",
+    "certainty": "high"
+  },
+  "moth": {
+    "proto": "muþþō",
+    "certainty": "high"
+  },
+  "snail": {
+    "proto": "snagilaz",
+    "certainty": "high"
+  },
+  "badger": {
+    "proto": "brōkaz",
+    "certainty": "medium"
+  },
+  "wren": {
+    "proto": "windilō",
+    "certainty": "medium"
+  },
+  "hazel": {
+    "proto": "hasalaz",
+    "certainty": "high"
+  },
+  "alder": {
+    "proto": "alurō",
+    "certainty": "high"
+  },
+  "beech": {
+    "proto": "bōkō",
+    "certainty": "high"
+  },
+  "rowan": {
+    "proto": "raunijō",
+    "certainty": "high"
+  },
+  "apple": {
+    "proto": "aplaz",
+    "certainty": "high"
+  },
+  "heather": {
+    "proto": "haiþijō",
+    "certainty": "high"
+  },
+  "fern": {
+    "proto": "farną",
+    "certainty": "high"
+  },
+  "nettle": {
+    "proto": "natilō",
+    "certainty": "high"
+  },
+  "thistle": {
+    "proto": "þistilijaz",
+    "certainty": "high"
+  },
+  "mushroom": {
+    "proto": "swammaz",
+    "certainty": "high"
+  },
+  "rush": {
+    "proto": "ruskaz",
+    "certainty": "medium"
+  },
+  "barley": {
+    "proto": "barizą",
+    "certainty": "high"
+  },
+  "wheat": {
+    "proto": "hwaitijaz",
+    "certainty": "high"
+  },
+  "rye": {
+    "proto": "rugjaz",
+    "certainty": "high"
+  },
+  "oats": {
+    "proto": "habarą",
+    "certainty": "high"
+  },
+  "flax": {
+    "proto": "flahsą",
+    "certainty": "high"
+  },
+  "egg": {
+    "proto": "ajją",
+    "certainty": "high"
+  },
+  "butter": {
+    "proto": "butraz",
+    "certainty": "medium"
+  },
+  "cheese": {
+    "proto": "kasjaz",
+    "certainty": "medium"
+  },
+  "leek": {
+    "proto": "laukaz",
+    "certainty": "high"
+  },
+  "bean": {
+    "proto": "baunō",
+    "certainty": "high"
+  },
+  "garlic": {
+    "proto": "garlaukaz",
+    "certainty": "high"
+  },
+  "tin": {
+    "proto": "tinaz",
+    "certainty": "high"
+  },
+  "flint": {
+    "proto": "flintaz",
+    "certainty": "high"
+  },
+  "amber": {
+    "proto": "glaesą",
+    "certainty": "medium"
+  },
+  "coal": {
+    "proto": "kulą",
+    "certainty": "high"
+  },
+  "wax": {
+    "proto": "wahsą",
+    "certainty": "high"
+  },
+  "pitch": {
+    "proto": "bitją",
+    "certainty": "medium"
+  },
+  "resin": {
+    "proto": "harzją",
+    "certainty": "high"
+  },
+  "sickle": {
+    "proto": "sikilaz",
+    "certainty": "medium"
+  },
+  "mill": {
+    "proto": "mulnō",
+    "certainty": "medium"
+  },
+  "broom": {
+    "proto": "brōmaz",
+    "certainty": "high"
+  },
+  "spindle": {
+    "proto": "spindilaz",
+    "certainty": "high"
+  },
+  "bellows": {
+    "proto": "balgwaz",
+    "certainty": "high"
+  },
+  "adze": {
+    "proto": "agwjō",
+    "certainty": "medium"
+  },
+  "spade": {
+    "proto": "spaþō",
+    "certainty": "high"
+  },
+  "ladle": {
+    "proto": "hlōþilō",
+    "certainty": "medium"
+  },
+  "candle": {
+    "proto": "kandilō",
+    "certainty": "medium"
+  },
+  "loom": {
+    "proto": "gelōmaz",
+    "certainty": "high"
+  },
+  "spit": {
+    "proto": "spitō",
+    "certainty": "high"
+  },
+  "stool": {
+    "proto": "stōlaz",
+    "certainty": "high"
+  },
+  "window": {
+    "proto": "windaugō",
+    "certainty": "high"
+  },
+  "glove": {
+    "proto": "galufō",
+    "certainty": "high"
+  },
+  "hat": {
+    "proto": "hattuz",
+    "certainty": "high"
+  },
+  "hood": {
+    "proto": "hōdaz",
+    "certainty": "high"
+  },
+  "breeches": {
+    "proto": "brōkiz",
+    "certainty": "high"
+  },
+  "shoe": {
+    "proto": "skōhaz",
+    "certainty": "high"
+  },
+  "shirt": {
+    "proto": "skurtijaz",
+    "certainty": "high"
+  },
+  "thick": {
+    "proto": "þikwuz",
+    "certainty": "high"
+  },
+  "thin": {
+    "proto": "þunnuz",
+    "certainty": "high"
+  },
+  "rough": {
+    "proto": "ruhwaz",
+    "certainty": "high"
+  },
+  "bitter": {
+    "proto": "batraz",
+    "certainty": "high"
+  },
+  "sweet": {
+    "proto": "swōtuz",
+    "certainty": "high"
+  },
+  "sour": {
+    "proto": "sūraz",
+    "certainty": "high"
+  },
+  "rotten": {
+    "proto": "rutanaz",
+    "certainty": "high"
+  },
+  "pale": {
+    "proto": "falwaz",
+    "certainty": "high"
+  },
+  "dim": {
+    "proto": "dimbaz",
+    "certainty": "high"
+  },
+  "quiet": {
+    "proto": "stillaz",
+    "certainty": "high"
+  },
+  "hollow": {
+    "proto": "hulaz",
+    "certainty": "high"
+  },
+  "round": {
+    "proto": "rundaz",
+    "certainty": "high"
+  },
+  "crooked": {
+    "proto": "krumpaz",
+    "certainty": "high"
+  },
+  "flat": {
+    "proto": "flataz",
+    "certainty": "high"
+  },
+  "lame": {
+    "proto": "lamaz",
+    "certainty": "high"
+  },
+  "whole": {
+    "proto": "hailaz",
+    "certainty": "high"
+  },
+  "smooth": {
+    "proto": "slaiþuz",
+    "certainty": "medium"
+  },
+  "tame": {
+    "proto": "tamaz",
+    "certainty": "high"
+  },
+  "naked": {
+    "proto": "nakwadaz",
+    "certainty": "high"
+  },
+  "shin": {
+    "proto": "skankaz",
+    "certainty": "high"
+  },
+  "chin": {
+    "proto": "kinnuz",
+    "certainty": "high"
+  },
+  "womb": {
+    "proto": "wambō",
+    "certainty": "high"
+  },
+  "gum": {
+    "proto": "gomō",
+    "certainty": "high"
+  },
+  "jaw": {
+    "proto": "kewōn",
+    "certainty": "medium"
+  },
+  "sole": {
+    "proto": "sulō",
+    "certainty": "medium"
+  },
+  "lap": {
+    "proto": "lappō",
+    "certainty": "high"
+  },
+  "temple": {
+    "proto": "þinwaz",
+    "certainty": "medium"
+  },
+  "nape": {
+    "proto": "hnappaz",
+    "certainty": "medium"
+  },
+  "month": {
+    "proto": "mēnōþs",
+    "certainty": "high"
+  },
+  "week": {
+    "proto": "wīkō",
+    "certainty": "high"
+  },
+  "hour": {
+    "proto": "stundō",
+    "certainty": "high"
+  },
+  "noon": {
+    "proto": "nōną",
+    "certainty": "medium"
+  },
+  "now": {
+    "proto": "nu",
+    "certainty": "high"
+  },
+  "then": {
+    "proto": "þan",
+    "certainty": "high"
+  },
+  "today": {
+    "proto": "himadagaz",
+    "certainty": "high"
+  },
+  "yesterday": {
+    "proto": "gistrą",
+    "certainty": "high"
+  },
+  "tomorrow": {
+    "proto": "gamorganą",
+    "certainty": "high"
+  },
+  "always": {
+    "proto": "aiwō",
+    "certainty": "high"
+  },
+  "never": {
+    "proto": "niaiwō",
+    "certainty": "high"
+  },
+  "early": {
+    "proto": "airlijaz",
+    "certainty": "high"
+  },
+  "late": {
+    "proto": "sēþaz",
+    "certainty": "high"
+  },
+  "husband": {
+    "proto": "wēraz",
+    "certainty": "high"
+  },
+  "widow": {
+    "proto": "widuwō",
+    "certainty": "high"
+  },
+  "twin": {
+    "proto": "twinaz",
+    "certainty": "high"
+  },
+  "bride": {
+    "proto": "bruðiz",
+    "certainty": "high"
+  },
+  "uncle": {
+    "proto": "faþwōn",
+    "certainty": "high"
+  },
+  "orphan": {
+    "proto": "arbidōną",
+    "certainty": "medium"
+  },
+  "life": {
+    "proto": "lībą",
+    "certainty": "high"
+  },
+  "way": {
+    "proto": "wegaz",
+    "certainty": "high"
+  },
+  "sign": {
+    "proto": "taikną",
+    "certainty": "high"
+  },
+  "burden": {
+    "proto": "burþiz",
+    "certainty": "high"
+  },
+  "hunger": {
+    "proto": "hungruz",
+    "certainty": "high"
+  },
+  "thirst": {
+    "proto": "þurstuz",
+    "certainty": "high"
+  },
+  "trust": {
+    "proto": "trūwō",
+    "certainty": "high"
+  },
+  "custom": {
+    "proto": "siduz",
+    "certainty": "high"
+  },
+  "manner": {
+    "proto": "wisō",
+    "certainty": "high"
+  },
+  "belief": {
+    "proto": "galaubijō",
+    "certainty": "high"
+  },
+  "weight": {
+    "proto": "gawihtiz",
+    "certainty": "high"
+  },
+  "raid": {
+    "proto": "raidō",
+    "certainty": "high"
+  },
+  "loot": {
+    "proto": "hlutą",
+    "certainty": "high"
+  },
+  "galdr": {
+    "proto": "galdraz",
+    "certainty": "high"
+  },
+  "berserker": {
+    "proto": "berserkaz",
+    "certainty": "high"
+  },
+  "silence": {
+    "proto": "þagnō",
+    "certainty": "medium"
+  },
+  "noise": {
+    "proto": "swōgaz",
+    "certainty": "medium"
+  },
+  "plunder": {
+    "proto": "plundrōną",
+    "certainty": "medium"
+  },
+  "open": {
+    "proto": "upanōną",
+    "certainty": "medium"
+  },
+  "fill": {
+    "proto": "fullijaną",
+    "certainty": "high"
+  },
+  "count": {
+    "proto": "rīmijaną",
+    "certainty": "medium"
+  },
+  "turn": {
+    "proto": "hwerbaną",
+    "certainty": "high"
+  },
+  "smell": {
+    "proto": "rjūkaną",
+    "certainty": "medium"
+  },
+  "plant": {
+    "proto": "plantōną",
+    "certainty": "medium"
+  },
+  "harvest": {
+    "proto": "harbistaz",
+    "certainty": "high"
+  },
+  "sharpen": {
+    "proto": "hwatjaną",
+    "certainty": "high"
+  },
+  "cook": {
+    "proto": "sōþijaną",
+    "certainty": "high"
+  },
+  "tie": {
+    "proto": "taugijaną",
+    "certainty": "medium"
+  },
+  "drop": {
+    "proto": "drupōną",
+    "certainty": "high"
+  },
+  "write": {
+    "proto": "wrītaną",
+    "certainty": "high"
+  },
+  "read": {
+    "proto": "rēdaną",
+    "certainty": "high"
+  },
+  "feel": {
+    "proto": "fōlijaną",
+    "certainty": "high"
+  },
+  "want": {
+    "proto": "wiljaną",
+    "certainty": "high"
+  },
+  "need": {
+    "proto": "naudijaną",
+    "certainty": "medium"
+  },
+  "have": {
+    "proto": "habjaną",
+    "certainty": "high"
+  },
+  "be": {
+    "proto": "wesaną",
+    "certainty": "high"
+  },
+  "do": {
+    "proto": "dōną",
+    "certainty": "high"
+  },
+  "thirteen": {
+    "proto": "þrīzatehun",
+    "certainty": "high"
+  },
+  "fourteen": {
+    "proto": "fewōrtehun",
+    "certainty": "high"
+  },
+  "fifteen": {
+    "proto": "fimftehun",
+    "certainty": "high"
+  },
+  "sixteen": {
+    "proto": "sehstehun",
+    "certainty": "high"
+  },
+  "seventeen": {
+    "proto": "sibuntehun",
+    "certainty": "high"
+  },
+  "eighteen": {
+    "proto": "ahtōtehun",
+    "certainty": "high"
+  },
+  "nineteen": {
+    "proto": "niwuntehun",
+    "certainty": "high"
+  },
+  "thirty": {
+    "proto": "þrītigaz",
+    "certainty": "high"
+  },
+  "forty": {
+    "proto": "fewōrtigaz",
+    "certainty": "high"
+  },
+  "fifty": {
+    "proto": "fimftigaz",
+    "certainty": "high"
+  },
+  "sixty": {
+    "proto": "sehstigaz",
+    "certainty": "high"
+  },
+  "seventy": {
+    "proto": "sibuntigaz",
+    "certainty": "high"
+  },
+  "eighty": {
+    "proto": "ahtōtigaz",
+    "certainty": "high"
+  },
+  "ninety": {
+    "proto": "niwuntigaz",
+    "certainty": "high"
+  },
+  "shallow": {
+    "proto": "skalwaz",
+    "certainty": "medium"
+  },
+  "clean": {
+    "proto": "klainijaz",
+    "certainty": "high"
+  },
+  "dirty": {
+    "proto": "fūlaz",
+    "certainty": "medium"
+  },
+  "cool": {
+    "proto": "kōlaz",
+    "certainty": "high"
+  },
+  "blunt": {
+    "proto": "stumpaz",
+    "certainty": "medium"
+  },
+  "straight": {
+    "proto": "rehtaz",
+    "certainty": "high"
+  },
+  "bent": {
+    "proto": "krumbaz",
+    "certainty": "medium"
+  },
+  "closed": {
+    "proto": "lukanaz",
+    "certainty": "high"
+  },
+  "bound": {
+    "proto": "bundanaz",
+    "certainty": "high"
+  },
+  "shake": {
+    "proto": "skakjaną",
+    "certainty": "high"
+  },
+  "stir": {
+    "proto": "sturjaną",
+    "certainty": "high"
+  },
+  "mix": {
+    "proto": "miskaną",
+    "certainty": "medium"
+  },
+  "spread": {
+    "proto": "spraidijaną",
+    "certainty": "high"
+  },
+  "stretch": {
+    "proto": "strakkijaną",
+    "certainty": "high"
+  },
+  "squeeze": {
+    "proto": "þwīnaną",
+    "certainty": "medium"
+  },
+  "press": {
+    "proto": "þrūskaną",
+    "certainty": "medium"
+  },
+  "lower": {
+    "proto": "lagjaną",
+    "certainty": "high"
+  },
+  "fold": {
+    "proto": "falþaną",
+    "certainty": "high"
+  },
+  "roll": {
+    "proto": "rullōną",
+    "certainty": "medium"
+  },
+  "wrap": {
+    "proto": "wrīþaną",
+    "certainty": "medium"
+  },
+  "sweep": {
+    "proto": "swōpaną",
+    "certainty": "high"
+  },
+  "melt": {
+    "proto": "meltaną",
+    "certainty": "high"
+  },
+  "freeze": {
+    "proto": "frūsaną",
+    "certainty": "high"
+  },
+  "boil": {
+    "proto": "wallaną",
+    "certainty": "high"
+  },
+  "roast": {
+    "proto": "raustijaną",
+    "certainty": "high"
+  },
+  "glow": {
+    "proto": "glōaną",
+    "certainty": "high"
+  },
+  "fade": {
+    "proto": "falwijaną",
+    "certainty": "medium"
+  },
+  "rot": {
+    "proto": "rutnaną",
+    "certainty": "high"
+  },
+  "bloom": {
+    "proto": "blōstaną",
+    "certainty": "medium"
+  },
+  "wither": {
+    "proto": "wernōną",
+    "certainty": "medium"
+  },
+  "blow": {
+    "proto": "blēwaną",
+    "certainty": "high"
+  },
+  "rinse": {
+    "proto": "þwehwaną",
+    "certainty": "medium"
+  },
+  "thresh": {
+    "proto": "þreskaną",
+    "certainty": "high"
+  },
+  "graze": {
+    "proto": "grasōną",
+    "certainty": "medium"
+  },
+  "shear": {
+    "proto": "skiraną",
+    "certainty": "high"
+  },
+  "slaughter": {
+    "proto": "slauhaną",
+    "certainty": "high"
+  },
+  "rest": {
+    "proto": "rastōną",
+    "certainty": "high"
+  },
+  "breathe": {
+    "proto": "anōną",
+    "certainty": "medium"
+  },
+  "cough": {
+    "proto": "kuhhōną",
+    "certainty": "medium"
+  },
+  "sneeze": {
+    "proto": "fnūsaną",
+    "certainty": "high"
+  },
+  "bleed": {
+    "proto": "blōdijaną",
+    "certainty": "high"
+  },
+  "hurt": {
+    "proto": "darjaną",
+    "certainty": "high"
+  },
+  "ache": {
+    "proto": "akaną",
+    "certainty": "high"
+  },
+  "limp": {
+    "proto": "haltōną",
+    "certainty": "high"
+  },
+  "stumble": {
+    "proto": "stumarōną",
+    "certainty": "medium"
+  },
+  "crawl": {
+    "proto": "kreupaną",
+    "certainty": "high"
+  },
+  "attack": {
+    "proto": "angrijaną",
+    "certainty": "medium"
+  },
+  "defend": {
+    "proto": "warjaną",
+    "certainty": "high"
+  },
+  "protect": {
+    "proto": "berganą",
+    "certainty": "high"
+  },
+  "ambush": {
+    "proto": "lapōną",
+    "certainty": "low"
+  },
+  "pay": {
+    "proto": "geldaną",
+    "certainty": "high"
+  },
+  "owe": {
+    "proto": "aganą",
+    "certainty": "high"
+  },
+  "lend": {
+    "proto": "laihaną",
+    "certainty": "high"
+  },
+  "borrow": {
+    "proto": "burgwōną",
+    "certainty": "medium"
+  },
+  "promise": {
+    "proto": "haitaną",
+    "certainty": "high"
+  },
+  "curse": {
+    "proto": "wargijaną",
+    "certainty": "medium"
+  },
+  "bless": {
+    "proto": "blōdisōną",
+    "certainty": "high"
+  },
+  "sacrifice": {
+    "proto": "blōtaną",
+    "certainty": "high"
+  },
+  "offer": {
+    "proto": "biudaną",
+    "certainty": "high"
+  },
+  "rejoice": {
+    "proto": "fagnōną",
+    "certainty": "high"
+  },
+  "mourn": {
+    "proto": "murnaną",
+    "certainty": "high"
+  },
+  "grieve": {
+    "proto": "hreuwaną",
+    "certainty": "high"
+  },
+  "whisper": {
+    "proto": "hwispōną",
+    "certainty": "medium"
+  },
+  "boast": {
+    "proto": "gelpijaną",
+    "certainty": "high"
+  },
+  "deceive": {
+    "proto": "swīkaną",
+    "certainty": "high"
+  },
+  "betray": {
+    "proto": "biswīkaną",
+    "certainty": "medium"
+  },
+  "forgive": {
+    "proto": "forgebaną",
+    "certainty": "high"
+  },
+  "share": {
+    "proto": "skiftijaną",
+    "certainty": "high"
+  },
+  "divide": {
+    "proto": "dalijaną",
+    "certainty": "high"
+  },
+  "weigh": {
+    "proto": "weganą",
+    "certainty": "high"
+  },
+  "judge": {
+    "proto": "dōmijaną",
+    "certainty": "high"
+  },
+  "command": {
+    "proto": "baudijaną",
+    "certainty": "medium"
+  },
+  "obey": {
+    "proto": "hauzijaną",
+    "certainty": "medium"
+  },
+  "ewe": {
+    "proto": "awiz",
+    "certainty": "high"
+  },
+  "hen": {
+    "proto": "hannō",
+    "certainty": "high"
+  },
+  "rooster": {
+    "proto": "hanaz",
+    "certainty": "high"
+  },
+  "goose": {
+    "proto": "gansaz",
+    "certainty": "high"
+  },
+  "falcon": {
+    "proto": "falkô",
+    "certainty": "high"
+  },
+  "lark": {
+    "proto": "laiwarikō",
+    "certainty": "high"
+  },
+  "moose": {
+    "proto": "algiz",
+    "certainty": "medium"
+  },
+  "beaver": {
+    "proto": "bebruz",
+    "certainty": "high"
+  },
+  "vole": {
+    "proto": "feldmūsaz",
+    "certainty": "medium"
+  },
+  "walrus": {
+    "proto": "hrussahwalaz",
+    "certainty": "medium"
+  },
+  "cod": {
+    "proto": "þurskaz",
+    "certainty": "medium"
+  },
+  "carp": {
+    "proto": "karpaz",
+    "certainty": "medium"
+  },
+  "mosquito": {
+    "proto": "mugwjō",
+    "certainty": "high"
+  },
+  "ugly": {
+    "proto": "wrangaz",
+    "certainty": "medium"
+  },
+  "foolish": {
+    "proto": "dwasaz",
+    "certainty": "high"
+  },
+  "brave": {
+    "proto": "baldaz",
+    "certainty": "high"
+  },
+  "cowardly": {
+    "proto": "argaz",
+    "certainty": "high"
+  },
+  "cruel": {
+    "proto": "grimmaz",
+    "certainty": "high"
+  },
+  "kind": {
+    "proto": "mildijaz",
+    "certainty": "high"
+  },
+  "gentle": {
+    "proto": "sōftijaz",
+    "certainty": "high"
+  },
+  "proud": {
+    "proto": "stoltaz",
+    "certainty": "medium"
+  },
+  "humble": {
+    "proto": "hnaigwaz",
+    "certainty": "medium"
+  },
+  "common": {
+    "proto": "gamainaz",
+    "certainty": "high"
+  },
+  "ancient": {
+    "proto": "aldijaz",
+    "certainty": "high"
+  },
+  "cursed": {
+    "proto": "wargijaz",
+    "certainty": "medium"
+  },
+  "lucky": {
+    "proto": "gōdlagiz",
+    "certainty": "medium"
+  },
+  "weak": {
+    "proto": "waikwaz",
+    "certainty": "high"
+  },
+  "hidden": {
+    "proto": "hulidaz",
+    "certainty": "high"
+  },
+  "lost": {
+    "proto": "farlidanaz",
+    "certainty": "medium"
+  },
+  "broken": {
+    "proto": "brukanaz",
+    "certainty": "high"
+  },
+  "false": {
+    "proto": "falskaz",
+    "certainty": "medium"
+  },
+  "chisel": {
+    "proto": "kesilijaz",
+    "certainty": "medium"
+  },
+  "awl": {
+    "proto": "ēlaz",
+    "certainty": "high"
+  },
+  "distaff": {
+    "proto": "distaz",
+    "certainty": "high"
+  },
+  "shuttle": {
+    "proto": "skudilaz",
+    "certainty": "high"
+  },
+  "trough": {
+    "proto": "þrugaz",
+    "certainty": "high"
+  },
+  "barrel": {
+    "proto": "barilaz",
+    "certainty": "medium"
+  },
+  "bucket": {
+    "proto": "bōkaz",
+    "certainty": "medium"
+  },
+  "hinge": {
+    "proto": "hangijaną",
+    "certainty": "medium"
+  },
+  "cord": {
+    "proto": "strangaz",
+    "certainty": "high"
+  },
+  "yarn": {
+    "proto": "garną",
+    "certainty": "high"
+  },
+  "linen": {
+    "proto": "līnaną",
+    "certainty": "high"
+  },
+  "fur": {
+    "proto": "fillaz",
+    "certainty": "medium"
+  },
+  "pelt": {
+    "proto": "skinnaz",
+    "certainty": "high"
+  },
+  "tallow": {
+    "proto": "talgaz",
+    "certainty": "high"
+  },
+  "tar": {
+    "proto": "terwō",
+    "certainty": "high"
+  },
+  "mortar": {
+    "proto": "murtarjaz",
+    "certainty": "medium"
+  },
+  "pestle": {
+    "proto": "pistillaz",
+    "certainty": "medium"
+  },
+  "quern": {
+    "proto": "kwerną",
+    "certainty": "high"
+  },
+  "millstone": {
+    "proto": "malasteunaz",
+    "certainty": "medium"
+  },
+  "defeat": {
+    "proto": "niþijaz",
+    "certainty": "medium"
+  },
+  "mercy": {
+    "proto": "mildijō",
+    "certainty": "high"
+  },
+  "justice": {
+    "proto": "rehtisō",
+    "certainty": "medium"
+  },
+  "folly": {
+    "proto": "dwasijō",
+    "certainty": "medium"
+  },
+  "greed": {
+    "proto": "gīrisō",
+    "certainty": "high"
+  },
+  "price": {
+    "proto": "prīsaz",
+    "certainty": "medium"
+  },
+  "reward": {
+    "proto": "mēdō",
+    "certainty": "high"
+  },
+  "punishment": {
+    "proto": "wrakjō",
+    "certainty": "high"
+  },
+  "exile": {
+    "proto": "wrakiz",
+    "certainty": "high"
+  },
+  "time": {
+    "proto": "tīdiz",
+    "certainty": "high"
+  },
+  "season": {
+    "proto": "arjaz",
+    "certainty": "medium"
+  },
+  "angry": {
+    "proto": "wōþaz",
+    "certainty": "high"
+  },
+  "sad": {
+    "proto": "sadaz",
+    "certainty": "high"
+  },
+  "happy": {
+    "proto": "sēlaz",
+    "certainty": "high"
+  },
+  "afraid": {
+    "proto": "agwaz",
+    "certainty": "medium"
+  },
+  "tired": {
+    "proto": "wōragaz",
+    "certainty": "high"
+  },
+  "awake": {
+    "proto": "wakaz",
+    "certainty": "high"
+  },
+  "asleep": {
+    "proto": "slēpandaz",
+    "certainty": "medium"
+  },
+  "dull": {
+    "proto": "dulaz",
+    "certainty": "medium"
+  },
+  "low": {
+    "proto": "lauhwaz",
+    "certainty": "high"
+  },
+  "wrong": {
+    "proto": "wrangaz",
+    "certainty": "high"
+  },
+  "bad": {
+    "proto": "ubilaz",
+    "certainty": "high"
+  },
+  "big": {
+    "proto": "mikilaz",
+    "certainty": "high"
+  },
+  "salty": {
+    "proto": "saltijaz",
+    "certainty": "high"
+  },
+  "clear": {
+    "proto": "hlūtrijaz",
+    "certainty": "high"
+  },
+  "cloudy": {
+    "proto": "wulkijanaz",
+    "certainty": "medium"
+  },
+  "stormy": {
+    "proto": "sturmijaz",
+    "certainty": "high"
+  },
+  "fawn": {
+    "proto": "hjortakalfaz",
+    "certainty": "low"
+  },
+  "wolverine": {
+    "proto": "jerwaz",
+    "certainty": "medium"
+  },
+  "ferret": {
+    "proto": "fūrimarduz",
+    "certainty": "low"
+  },
+  "polecat": {
+    "proto": "fūlimarduz",
+    "certainty": "medium"
+  },
+  "ermine": {
+    "proto": "harminaz",
+    "certainty": "medium"
+  },
+  "stoat": {
+    "proto": "stūtaz",
+    "certainty": "low"
+  },
+  "hedgehog": {
+    "proto": "igiljaz",
+    "certainty": "high"
+  },
+  "squirrel": {
+    "proto": "ēkurną",
+    "certainty": "high"
+  },
+  "rabbit": {
+    "proto": "rapitaz",
+    "certainty": "low"
+  },
+  "bat": {
+    "proto": "leþrablakō",
+    "certainty": "medium"
+  },
+  "heron": {
+    "proto": "haigrōn",
+    "certainty": "high"
+  },
+  "nightingale": {
+    "proto": "nahtīgalō",
+    "certainty": "high"
+  },
+  "dove": {
+    "proto": "dūbō",
+    "certainty": "high"
+  },
+  "pigeon": {
+    "proto": "dūbō",
+    "certainty": "medium"
+  },
+  "peacock": {
+    "proto": "pāwō",
+    "certainty": "medium"
+  },
+  "kingfisher": {
+    "proto": "fiskijōn",
+    "certainty": "medium"
+  },
+  "adder": {
+    "proto": "naþrō",
+    "certainty": "high"
+  },
+  "viper": {
+    "proto": "wīþrō",
+    "certainty": "medium"
+  },
+  "lizard": {
+    "proto": "eþagjōn",
+    "certainty": "medium"
+  },
+  "perch": {
+    "proto": "abburaz",
+    "certainty": "medium"
+  },
+  "bream": {
+    "proto": "braimaz",
+    "certainty": "medium"
+  },
+  "shrimp": {
+    "proto": "skrampijaz",
+    "certainty": "medium"
+  },
+  "crab": {
+    "proto": "krabbō",
+    "certainty": "high"
+  },
+  "lobster": {
+    "proto": "luppustraz",
+    "certainty": "medium"
+  },
+  "clam": {
+    "proto": "klammaz",
+    "certainty": "medium"
+  },
+  "mussel": {
+    "proto": "muskulō",
+    "certainty": "medium"
+  },
+  "oyster": {
+    "proto": "astrō",
+    "certainty": "medium"
+  },
+  "dragonfly": {
+    "proto": "wataraflugō",
+    "certainty": "medium"
+  },
+  "tick": {
+    "proto": "tikkō",
+    "certainty": "medium"
+  },
+  "scorpion": {
+    "proto": "skurpjō",
+    "certainty": "medium"
+  },
+  "hawthorn": {
+    "proto": "hagaþurnaz",
+    "certainty": "high"
+  },
+  "elder": {
+    "proto": "ellurną",
+    "certainty": "medium"
+  },
+  "spruce": {
+    "proto": "granō",
+    "certainty": "medium"
+  },
+  "fir": {
+    "proto": "furhijō",
+    "certainty": "high"
+  },
+  "larch": {
+    "proto": "larikją",
+    "certainty": "low"
+  },
+  "holly": {
+    "proto": "hulisaz",
+    "certainty": "high"
+  },
+  "mistletoe": {
+    "proto": "mistilą",
+    "certainty": "high"
+  },
+  "clover": {
+    "proto": "klaibrō",
+    "certainty": "high"
+  },
+  "blossom": {
+    "proto": "blōstmą",
+    "certainty": "high"
+  },
+  "sap": {
+    "proto": "sapō",
+    "certainty": "high"
+  },
+  "acorn": {
+    "proto": "akranaz",
+    "certainty": "high"
+  },
+  "walnut": {
+    "proto": "walhnutaz",
+    "certainty": "high"
+  },
+  "nut": {
+    "proto": "hnutō",
+    "certainty": "high"
+  },
+  "strawberry": {
+    "proto": "strawabērijō",
+    "certainty": "high"
+  },
+  "raspberry": {
+    "proto": "hindaberō",
+    "certainty": "high"
+  },
+  "blackberry": {
+    "proto": "brēmalaz",
+    "certainty": "high"
+  },
+  "blueberry": {
+    "proto": "blaiwijōbērijō",
+    "certainty": "medium"
+  },
+  "pear": {
+    "proto": "pirą",
+    "certainty": "medium"
+  },
+  "plum": {
+    "proto": "plūmō",
+    "certainty": "medium"
+  },
+  "cherry": {
+    "proto": "kirsijō",
+    "certainty": "medium"
+  },
+  "hemp": {
+    "proto": "hanapiz",
+    "certainty": "high"
+  },
+  "millet": {
+    "proto": "melit",
+    "certainty": "medium"
+  },
+  "turnip": {
+    "proto": "nēpaz",
+    "certainty": "medium"
+  },
+  "onion": {
+    "proto": "uniōnaz",
+    "certainty": "medium"
+  },
+  "cabbage": {
+    "proto": "kaulaz",
+    "certainty": "medium"
+  },
+  "carrot": {
+    "proto": "murōn",
+    "certainty": "medium"
+  },
+  "radish": {
+    "proto": "radiksą",
+    "certainty": "medium"
+  },
+  "pea": {
+    "proto": "pauzō",
+    "certainty": "medium"
+  },
+  "dwarf": {
+    "proto": "dwergaz",
+    "certainty": "high"
+  },
+  "troll": {
+    "proto": "trullaz",
+    "certainty": "medium"
+  },
+  "draugr": {
+    "proto": "draugaz",
+    "certainty": "medium"
+  },
+  "wight": {
+    "proto": "wihtiz",
+    "certainty": "high"
+  },
+  "njord": {
+    "proto": "Nerþuz",
+    "certainty": "high"
+  },
+  "heimdall": {
+    "proto": "Haimadallaz",
+    "certainty": "medium"
+  },
+  "utgard": {
+    "proto": "UtaGardaz",
+    "certainty": "medium"
+  },
+  "sleipnir": {
+    "proto": "Slīpanaz",
+    "certainty": "medium"
+  },
+  "jormungandr": {
+    "proto": "Ermunagandraz",
+    "certainty": "medium"
+  },
+  "wedge": {
+    "proto": "wagjaz",
+    "certainty": "high"
+  },
+  "rivet": {
+    "proto": "wrītilaz",
+    "certainty": "medium"
+  },
+  "plank": {
+    "proto": "plankō",
+    "certainty": "medium"
+  },
+  "beam": {
+    "proto": "baumaz",
+    "certainty": "high"
+  },
+  "rafter": {
+    "proto": "raptraz",
+    "certainty": "high"
+  },
+  "thatch": {
+    "proto": "þakją",
+    "certainty": "high"
+  },
+  "shingle": {
+    "proto": "skindulaz",
+    "certainty": "medium"
+  },
+  "tile": {
+    "proto": "tigulō",
+    "certainty": "medium"
+  },
+  "ceiling": {
+    "proto": "þakją",
+    "certainty": "medium"
+  },
+  "fence": {
+    "proto": "fansijō",
+    "certainty": "medium"
+  },
+  "well": {
+    "proto": "wallaz",
+    "certainty": "high"
+  },
+  "cistern": {
+    "proto": "sistarnō",
+    "certainty": "medium"
+  },
+  "dock": {
+    "proto": "dukkō",
+    "certainty": "medium"
+  },
+  "anchor": {
+    "proto": "ankaraz",
+    "certainty": "medium"
+  },
+  "cart": {
+    "proto": "kertaz",
+    "certainty": "high"
+  },
+  "wagon": {
+    "proto": "wagnaz",
+    "certainty": "high"
+  },
+  "wheel": {
+    "proto": "hwehwlaz",
+    "certainty": "high"
+  },
+  "axle": {
+    "proto": "ahsulaz",
+    "certainty": "high"
+  },
+  "yoke": {
+    "proto": "juką",
+    "certainty": "high"
+  },
+  "harness": {
+    "proto": "hernestaz",
+    "certainty": "medium"
+  },
+  "saddle": {
+    "proto": "saþulaz",
+    "certainty": "high"
+  },
+  "stirrup": {
+    "proto": "stigarapaz",
+    "certainty": "high"
+  },
+  "bridle": {
+    "proto": "brīdulaz",
+    "certainty": "high"
+  },
+  "quiver": {
+    "proto": "kokwaz",
+    "certainty": "medium"
+  },
+  "dagger": {
+    "proto": "daggeraz",
+    "certainty": "medium"
+  },
+  "hilt": {
+    "proto": "hiltijō",
+    "certainty": "high"
+  },
+  "scabbard": {
+    "proto": "skaljaburdaz",
+    "certainty": "medium"
+  },
+  "fame": {
+    "proto": "hlūþiną",
+    "certainty": "high"
+  },
+  "story": {
+    "proto": "sagō",
+    "certainty": "high"
+  },
+  "tale": {
+    "proto": "talō",
+    "certainty": "high"
+  },
+  "riddle": {
+    "proto": "rēdislō",
+    "certainty": "high"
+  },
+  "omen": {
+    "proto": "fōrisagnō",
+    "certainty": "medium"
+  },
+  "wonder": {
+    "proto": "wundarą",
+    "certainty": "high"
+  },
+  "miracle": {
+    "proto": "wundarą",
+    "certainty": "medium"
+  },
+  "birth": {
+    "proto": "gaburþiz",
+    "certainty": "high"
+  },
+  "youth": {
+    "proto": "juguþiz",
+    "certainty": "high"
+  },
+  "might": {
+    "proto": "mahtiz",
+    "certainty": "high"
+  },
+  "wish": {
+    "proto": "wunskaz",
+    "certainty": "high"
+  },
+  "faith": {
+    "proto": "trūwō",
+    "certainty": "high"
+  },
+  "doubt": {
+    "proto": "twiflaz",
+    "certainty": "high"
+  },
+  "pleasure": {
+    "proto": "lustuz",
+    "certainty": "high"
+  },
+  "health": {
+    "proto": "hailipō",
+    "certainty": "high"
+  },
+  "wealth": {
+    "proto": "welþō",
+    "certainty": "high"
+  },
+  "poverty": {
+    "proto": "armuþō",
+    "certainty": "medium"
+  },
+  "threshold": {
+    "proto": "þerskaþulaz",
+    "certainty": "high"
+  },
+  "host": {
+    "proto": "gastijaz",
+    "certainty": "high"
+  },
+  "kinship": {
+    "proto": "kunją",
+    "certainty": "high"
+  },
+  "marriage": {
+    "proto": "gamainijō",
+    "certainty": "medium"
+  },
+  "game": {
+    "proto": "gamanaz",
+    "certainty": "high"
+  },
+  "sport": {
+    "proto": "leikaz",
+    "certainty": "high"
+  },
+  "race": {
+    "proto": "raisō",
+    "certainty": "medium"
+  },
+  "contest": {
+    "proto": "kampaz",
+    "certainty": "high"
+  },
+  "teeth": {
+    "proto": "tanþiz",
+    "certainty": "high"
+  },
+  "eyelid": {
+    "proto": "augalidijō",
+    "certainty": "high"
+  },
+  "nostril": {
+    "proto": "nasaþyrlō",
+    "certainty": "high"
+  },
+  "hoof": {
+    "proto": "hōfaz",
+    "certainty": "high"
+  },
+  "tail": {
+    "proto": "taglaz",
+    "certainty": "high"
+  },
+  "wing": {
+    "proto": "wengiją",
+    "certainty": "high"
+  },
+  "scale": {
+    "proto": "skaljō",
+    "certainty": "high"
+  },
+  "feather": {
+    "proto": "feþrō",
+    "certainty": "high"
+  },
+  "shell": {
+    "proto": "skaljō",
+    "certainty": "high"
+  },
+  "swamp": {
+    "proto": "swampaz",
+    "certainty": "medium"
+  },
+  "vale": {
+    "proto": "daluz",
+    "certainty": "medium"
+  },
+  "glen": {
+    "proto": "daluz",
+    "certainty": "low"
+  },
+  "peak": {
+    "proto": "pīkaz",
+    "certainty": "medium"
+  },
+  "ridge": {
+    "proto": "hrugjaz",
+    "certainty": "high"
+  },
+  "slope": {
+    "proto": "ōfijaz",
+    "certainty": "medium"
+  },
+  "desert": {
+    "proto": "wastijaz",
+    "certainty": "medium"
+  },
+  "peninsula": {
+    "proto": "halflandaz",
+    "certainty": "low"
+  },
+  "sunrise": {
+    "proto": "sunnōnupgangaz",
+    "certainty": "high"
+  },
+  "sunset": {
+    "proto": "sunnōnsetlaz",
+    "certainty": "high"
+  },
+  "afternoon": {
+    "proto": "aftarnōnaz",
+    "certainty": "medium"
+  },
+  "solstice": {
+    "proto": "sunnōnstillō",
+    "certainty": "low"
+  },
+  "equinox": {
+    "proto": "efnnahtaz",
+    "certainty": "low"
+  },
+  "crescent": {
+    "proto": "waksandijamēnōþs",
+    "certainty": "low"
+  },
+  "comet": {
+    "proto": "hairstairniją",
+    "certainty": "medium"
+  },
+  "grandfather": {
+    "proto": "aldirafaðer",
+    "certainty": "medium"
+  },
+  "grandmother": {
+    "proto": "aldiramōþer",
+    "certainty": "medium"
+  },
+  "grandson": {
+    "proto": "sunusunuz",
+    "certainty": "medium"
+  },
+  "granddaughter": {
+    "proto": "duhtirduhtiz",
+    "certainty": "medium"
+  },
+  "nephew": {
+    "proto": "neuþijaz",
+    "certainty": "high"
+  },
+  "niece": {
+    "proto": "neuþijō",
+    "certainty": "high"
+  },
+  "aunt": {
+    "proto": "faþijō",
+    "certainty": "medium"
+  },
+  "cousin": {
+    "proto": "sibjamannaz",
+    "certainty": "low"
+  },
+  "in-law": {
+    "proto": "māgaz",
+    "certainty": "medium"
+  },
+  "stepfather": {
+    "proto": "stiuffaðer",
+    "certainty": "high"
+  },
+  "stepmother": {
+    "proto": "stiufmōþer",
+    "certainty": "high"
+  },
+  "queen": {
+    "proto": "kwenō",
+    "certainty": "high"
+  },
+  "prince": {
+    "proto": "þeudanaz",
+    "certainty": "high"
+  },
+  "princess": {
+    "proto": "þeudanijō",
+    "certainty": "medium"
+  },
+  "lady": {
+    "proto": "hlaibadigō",
+    "certainty": "high"
+  },
+  "knight": {
+    "proto": "knektaz",
+    "certainty": "high"
+  },
+  "soldier": {
+    "proto": "kampijaz",
+    "certainty": "medium"
+  },
+  "archer": {
+    "proto": "skuttijandaz",
+    "certainty": "medium"
+  },
+  "sailor": {
+    "proto": "saiwamannaz",
+    "certainty": "high"
+  },
+  "shepherd": {
+    "proto": "skēpawardaz",
+    "certainty": "high"
+  },
+  "merchant": {
+    "proto": "kaupmannaz",
+    "certainty": "high"
+  },
+  "trader": {
+    "proto": "kaupijandaz",
+    "certainty": "medium"
+  },
+  "priest": {
+    "proto": "wīhijaz",
+    "certainty": "medium"
+  },
+  "seer": {
+    "proto": "witijōn",
+    "certainty": "high"
+  },
+  "herald": {
+    "proto": "budijaz",
+    "certainty": "high"
+  },
+  "forget": {
+    "proto": "fargetaną",
+    "certainty": "high"
+  },
+  "understand": {
+    "proto": "undirstandaną",
+    "certainty": "high"
+  },
+  "believe": {
+    "proto": "galaubijaną",
+    "certainty": "high"
+  },
+  "decide": {
+    "proto": "skaidijaną",
+    "certainty": "high"
+  },
+  "serve": {
+    "proto": "þewōną",
+    "certainty": "high"
+  },
+  "govern": {
+    "proto": "waldaną",
+    "certainty": "high"
+  },
+  "spare": {
+    "proto": "sparaną",
+    "certainty": "high"
+  },
+  "save": {
+    "proto": "nazijaną",
+    "certainty": "high"
+  },
+  "capture": {
+    "proto": "fanhaną",
+    "certainty": "high"
+  },
+  "release": {
+    "proto": "lausijaną",
+    "certainty": "high"
+  },
+  "escape": {
+    "proto": "utslūpaną",
+    "certainty": "medium"
+  },
+  "pursue": {
+    "proto": "fulgijaną",
+    "certainty": "high"
+  },
+  "arrive": {
+    "proto": "landaną",
+    "certainty": "medium"
+  },
+  "prepare": {
+    "proto": "garwijaną",
+    "certainty": "high"
+  },
+  "scatter": {
+    "proto": "skatjaną",
+    "certainty": "medium"
+  },
+  "overflow": {
+    "proto": "ufarflōwaną",
+    "certainty": "high"
+  },
+  "gravel": {
+    "proto": "greuta",
+    "certainty": "medium"
+  },
+  "soot": {
+    "proto": "sōtą",
+    "certainty": "high"
+  },
+  "steam": {
+    "proto": "staumaz",
+    "certainty": "high"
+  },
+  "foam": {
+    "proto": "faimaz",
+    "certainty": "high"
+  },
+  "bubble": {
+    "proto": "bublōn",
+    "certainty": "medium"
+  },
+  "purple": {
+    "proto": "purpuraz",
+    "certainty": "medium"
+  },
+  "orange": {
+    "proto": "gullrauðaz",
+    "certainty": "medium"
+  },
+  "pink": {
+    "proto": "blōmarauðaz",
+    "certainty": "low"
+  },
+  "again": {
+    "proto": "gaganaz",
+    "certainty": "high"
+  },
+  "sometimes": {
+    "proto": "hwīlumaz",
+    "certainty": "high"
+  },
+  "often": {
+    "proto": "ufta",
+    "certainty": "high"
+  },
+  "seldom": {
+    "proto": "seldaną",
+    "certainty": "high"
+  },
+  "here": {
+    "proto": "hēr",
+    "certainty": "high"
+  },
+  "there": {
+    "proto": "þar",
+    "certainty": "high"
+  },
+  "where": {
+    "proto": "hwar",
+    "certainty": "high"
+  },
+  "everywhere": {
+    "proto": "aiwahwar",
+    "certainty": "medium"
+  },
+  "nowhere": {
+    "proto": "nawihwar",
+    "certainty": "high"
+  },
+  "yes": {
+    "proto": "jawō",
+    "certainty": "high"
+  },
+  "no": {
+    "proto": "nē",
+    "certainty": "high"
+  },
+  "maybe": {
+    "proto": "maganbiją",
+    "certainty": "medium"
+  },
+  "perhaps": {
+    "proto": "þurhhapaz",
+    "certainty": "medium"
+  },
+  "truly": {
+    "proto": "triwwijō",
+    "certainty": "medium"
+  },
+  "surely": {
+    "proto": "gawisslijō",
+    "certainty": "medium"
+  },
+  "alone": {
+    "proto": "ainaz",
+    "certainty": "high"
+  },
+  "together": {
+    "proto": "gasamanō",
+    "certainty": "high"
+  },
+  "apart": {
+    "proto": "sunderō",
+    "certainty": "high"
+  },
+  "between": {
+    "proto": "bitwīnaz",
+    "certainty": "high"
+  },
+  "among": {
+    "proto": "imangaz",
+    "certainty": "medium"
+  },
+  "already": {
+    "proto": "alrēdijaz",
+    "certainty": "medium"
+  },
+  "the": {
+    "proto": "þaz",
+    "certainty": "high"
+  },
+  "a": {
+    "proto": "ainaz",
+    "certainty": "high"
+  },
+  "an": {
+    "proto": "ainaz",
+    "certainty": "high"
+  },
+  "this": {
+    "proto": "þiz",
+    "certainty": "high"
+  },
+  "that": {
+    "proto": "þat",
+    "certainty": "high"
+  },
+  "these": {
+    "proto": "þiz",
+    "certainty": "high"
+  },
+  "those": {
+    "proto": "þāz",
+    "certainty": "high"
+  },
+  "it": {
+    "proto": "it",
+    "certainty": "high"
+  },
+  "him": {
+    "proto": "immai",
+    "certainty": "high"
+  },
+  "her": {
+    "proto": "izōi",
+    "certainty": "high"
+  },
+  "them": {
+    "proto": "þaimaz",
+    "certainty": "high"
+  },
+  "my": {
+    "proto": "mīnaz",
+    "certainty": "high"
+  },
+  "your": {
+    "proto": "īwraz",
+    "certainty": "high"
+  },
+  "his": {
+    "proto": "iz",
+    "certainty": "high"
+  },
+  "its": {
+    "proto": "itaz",
+    "certainty": "medium"
+  },
+  "our": {
+    "proto": "unseraz",
+    "certainty": "high"
+  },
+  "their": {
+    "proto": "þeraz",
+    "certainty": "high"
+  },
+  "who": {
+    "proto": "hwaz",
+    "certainty": "high"
+  },
+  "which": {
+    "proto": "hwilīkaz",
+    "certainty": "high"
+  },
+  "what": {
+    "proto": "hwat",
+    "certainty": "high"
+  },
+  "how": {
+    "proto": "hwō",
+    "certainty": "high"
+  },
+  "when": {
+    "proto": "hwannē",
+    "certainty": "high"
+  },
+  "why": {
+    "proto": "hwī",
+    "certainty": "high"
+  },
+  "and": {
+    "proto": "andi",
+    "certainty": "high"
+  },
+  "or": {
+    "proto": "aiþþau",
+    "certainty": "high"
+  },
+  "but": {
+    "proto": "butan",
+    "certainty": "high"
+  },
+  "not": {
+    "proto": "ne",
+    "certainty": "high"
+  },
+  "if": {
+    "proto": "jabai",
+    "certainty": "high"
+  },
+  "so": {
+    "proto": "swē",
+    "certainty": "high"
+  },
+  "yet": {
+    "proto": "jiut",
+    "certainty": "medium"
+  },
+  "nor": {
+    "proto": "nē",
+    "certainty": "high"
+  },
+  "for": {
+    "proto": "furi",
+    "certainty": "high"
+  },
+  "while": {
+    "proto": "hwīlō",
+    "certainty": "high"
+  },
+  "until": {
+    "proto": "untilō",
+    "certainty": "medium"
+  },
+  "since": {
+    "proto": "siþþan",
+    "certainty": "high"
+  },
+  "through": {
+    "proto": "þurhw",
+    "certainty": "high"
+  },
+  "out": {
+    "proto": "ūt",
+    "certainty": "high"
+  },
+  "off": {
+    "proto": "af",
+    "certainty": "high"
+  },
+  "away": {
+    "proto": "awaig",
+    "certainty": "high"
+  },
+  "forward": {
+    "proto": "furiwardō",
+    "certainty": "medium"
+  },
+  "in": {
+    "proto": "in",
+    "certainty": "high"
+  },
+  "on": {
+    "proto": "ana",
+    "certainty": "high"
+  },
+  "at": {
+    "proto": "at",
+    "certainty": "high"
+  },
+  "by": {
+    "proto": "bi",
+    "certainty": "high"
+  },
+  "with": {
+    "proto": "wiþra",
+    "certainty": "high"
+  },
+  "from": {
+    "proto": "fra",
+    "certainty": "high"
+  },
+  "to": {
+    "proto": "tō",
+    "certainty": "high"
+  },
+  "of": {
+    "proto": "af",
+    "certainty": "high"
+  },
+  "about": {
+    "proto": "umbi",
+    "certainty": "high"
+  },
+  "over": {
+    "proto": "uberi",
+    "certainty": "high"
+  },
+  "under": {
+    "proto": "undar",
+    "certainty": "high"
+  },
+  "during": {
+    "proto": "þurhw",
+    "certainty": "medium"
+  },
+  "can": {
+    "proto": "kunnaną",
+    "certainty": "high"
+  },
+  "could": {
+    "proto": "kunþa",
+    "certainty": "high"
+  },
+  "should": {
+    "proto": "skulda",
+    "certainty": "high"
+  },
+  "would": {
+    "proto": "wulda",
+    "certainty": "high"
+  },
+  "may": {
+    "proto": "maguną",
+    "certainty": "high"
+  },
+  "shall": {
+    "proto": "skulaną",
+    "certainty": "high"
+  },
+  "must": {
+    "proto": "mōtaną",
+    "certainty": "high"
+  },
+  "ought": {
+    "proto": "aihtō",
+    "certainty": "medium"
+  },
+  "is": {
+    "proto": "isti",
+    "certainty": "high"
+  },
+  "are": {
+    "proto": "sind",
+    "certainty": "high"
+  },
+  "was": {
+    "proto": "was",
+    "certainty": "high"
+  },
+  "were": {
+    "proto": "wērun",
+    "certainty": "high"
+  },
+  "been": {
+    "proto": "gewesanaz",
+    "certainty": "medium"
+  },
+  "being": {
+    "proto": "wesandaz",
+    "certainty": "medium"
+  },
+  "has": {
+    "proto": "habjiþ",
+    "certainty": "high"
+  },
+  "had": {
+    "proto": "habdē",
+    "certainty": "high"
+  },
+  "does": {
+    "proto": "dōjiþ",
+    "certainty": "high"
+  },
+  "did": {
+    "proto": "dedē",
+    "certainty": "high"
+  },
+  "knit": {
+    "proto": "knuttijaną",
+    "certainty": "high"
+  },
+  "dye": {
+    "proto": "dawijaną",
+    "certainty": "high"
+  },
+  "bleach": {
+    "proto": "blaikijaną",
+    "certainty": "high"
+  },
+  "tan": {
+    "proto": "tannōną",
+    "certainty": "medium"
+  },
+  "scrape": {
+    "proto": "skrapaną",
+    "certainty": "high"
+  },
+  "engrave": {
+    "proto": "grabaną",
+    "certainty": "high"
+  },
+  "plane": {
+    "proto": "smōþijaną",
+    "certainty": "medium"
+  },
+  "drill": {
+    "proto": "þrillijaną",
+    "certainty": "medium"
+  },
+  "bore": {
+    "proto": "buraną",
+    "certainty": "high"
+  },
+  "file": {
+    "proto": "fēlōną",
+    "certainty": "high"
+  },
+  "polish": {
+    "proto": "smurwaną",
+    "certainty": "medium"
+  },
+  "weed": {
+    "proto": "wēudōną",
+    "certainty": "medium"
+  },
+  "prune": {
+    "proto": "snīþaną",
+    "certainty": "medium"
+  },
+  "graft": {
+    "proto": "grōþijaną",
+    "certainty": "low"
+  },
+  "pick": {
+    "proto": "pikaną",
+    "certainty": "medium"
+  },
+  "ferment": {
+    "proto": "gāraną",
+    "certainty": "medium"
+  },
+  "preserve": {
+    "proto": "saltijaną",
+    "certainty": "medium"
+  },
+  "cure": {
+    "proto": "hailijaną",
+    "certainty": "high"
+  },
+  "trap": {
+    "proto": "trappōną",
+    "certainty": "medium"
+  },
+  "snare": {
+    "proto": "snarhōną",
+    "certainty": "medium"
+  },
+  "trawl": {
+    "proto": "trawlōną",
+    "certainty": "low"
+  },
+  "stalk": {
+    "proto": "stalkaną",
+    "certainty": "medium"
+  },
+  "track": {
+    "proto": "spurijaną",
+    "certainty": "medium"
+  },
+  "lure": {
+    "proto": "lōdrōną",
+    "certainty": "medium"
+  },
+  "steer": {
+    "proto": "steuraną",
+    "certainty": "high"
+  },
+  "navigate": {
+    "proto": "saiwalīþaną",
+    "certainty": "medium"
+  },
+  "caulk": {
+    "proto": "þīhtijaną",
+    "certainty": "medium"
+  },
+  "multiply": {
+    "proto": "manifaldijaną",
+    "certainty": "high"
+  },
+  "subtract": {
+    "proto": "afnimijaną",
+    "certainty": "medium"
+  },
+  "draw": {
+    "proto": "draganą",
+    "certainty": "high"
+  },
+  "sketch": {
+    "proto": "mǣlijaną",
+    "certainty": "medium"
+  },
+  "paint": {
+    "proto": "farbijaną",
+    "certainty": "medium"
+  },
+  "sculpt": {
+    "proto": "grabaną",
+    "certainty": "high"
+  },
+  "inscribe": {
+    "proto": "inrītaną",
+    "certainty": "medium"
+  },
+  "celebrate": {
+    "proto": "blōtōną",
+    "certainty": "high"
+  },
+  "toast": {
+    "proto": "skālijaną",
+    "certainty": "medium"
+  },
+  "dance": {
+    "proto": "dansjōną",
+    "certainty": "medium"
+  },
+  "play": {
+    "proto": "pleganą",
+    "certainty": "high"
+  },
+  "wrestle": {
+    "proto": "wrestilijaną",
+    "certainty": "high"
+  },
+  "cleanse": {
+    "proto": "klainijaną",
+    "certainty": "high"
+  },
+  "purify": {
+    "proto": "hlūtrijaną",
+    "certainty": "high"
+  },
+  "consecrate": {
+    "proto": "wīhijaną",
+    "certainty": "high"
+  },
+  "invoke": {
+    "proto": "gaklīpaną",
+    "certainty": "medium"
+  },
+  "ward": {
+    "proto": "wardōną",
+    "certainty": "high"
+  },
+  "greet": {
+    "proto": "grōtijaną",
+    "certainty": "high"
+  },
+  "farewell": {
+    "proto": "farawelą",
+    "certainty": "medium"
+  },
+  "thank": {
+    "proto": "þankōną",
+    "certainty": "high"
+  },
+  "apologize": {
+    "proto": "biddōną",
+    "certainty": "medium"
+  },
+  "debt": {
+    "proto": "skuldiz",
+    "certainty": "high"
+  },
+  "vow": {
+    "proto": "aiþaz",
+    "certainty": "high"
+  },
+  "pledge": {
+    "proto": "wedją",
+    "certainty": "high"
+  },
+  "covenant": {
+    "proto": "samkwidą",
+    "certainty": "low"
+  },
+  "alliance": {
+    "proto": "sibjō",
+    "certainty": "high"
+  },
+  "treaty": {
+    "proto": "friþuz",
+    "certainty": "high"
+  },
+  "scar": {
+    "proto": "skarðaz",
+    "certainty": "high"
+  },
+  "bruise": {
+    "proto": "brūsijō",
+    "certainty": "medium"
+  },
+  "blister": {
+    "proto": "blaistrą",
+    "certainty": "medium"
+  },
+  "plague": {
+    "proto": "kwalm",
+    "certainty": "high"
+  },
+  "poison": {
+    "proto": "eitraz",
+    "certainty": "high"
+  },
+  "remedy": {
+    "proto": "lākedōmaz",
+    "certainty": "high"
+  },
+  "cradle": {
+    "proto": "kraddilaz",
+    "certainty": "high"
+  },
+  "tomb": {
+    "proto": "þrauhwaz",
+    "certainty": "medium"
+  },
+  "funeral": {
+    "proto": "balaz",
+    "certainty": "medium"
+  },
+  "market": {
+    "proto": "markadaz",
+    "certainty": "medium"
+  },
+  "barter": {
+    "proto": "kaupōną",
+    "certainty": "high"
+  },
+  "coin": {
+    "proto": "myntō",
+    "certainty": "medium"
+  },
+  "banner": {
+    "proto": "fanō",
+    "certainty": "high"
+  },
+  "emblem": {
+    "proto": "markō",
+    "certainty": "high"
+  },
+  "coast": {
+    "proto": "strandō",
+    "certainty": "high"
+  },
+  "bay": {
+    "proto": "buhtaz",
+    "certainty": "medium"
+  },
+  "gulf": {
+    "proto": "gaupaz",
+    "certainty": "low"
+  },
+  "strait": {
+    "proto": "anguz",
+    "certainty": "medium"
+  },
+  "current": {
+    "proto": "runnijō",
+    "certainty": "medium"
+  },
+  "abyss": {
+    "proto": "grundilēsaz",
+    "certainty": "medium"
+  },
+  "blizzard": {
+    "proto": "snaiwaþurmaz",
+    "certainty": "medium"
+  },
+  "gale": {
+    "proto": "windstūrmaz",
+    "certainty": "medium"
+  },
+  "tempest": {
+    "proto": "wedrastūrmaz",
+    "certainty": "medium"
+  }
+}

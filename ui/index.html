@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RunePipeline</title>
+<style>
+  /* ── Reset & base ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:          #0d0f14;
+    --surface:     #161a24;
+    --surface2:    #1e2433;
+    --surface3:    #252d40;
+    --border:      #2c3550;
+    --gold:        #c8a558;
+    --gold-dim:    #8a6e34;
+    --gold-glow:   rgba(200,165,88,0.15);
+    --text:        #e8e0d0;
+    --text-dim:    #8a8070;
+    --text-faint:  #4a4640;
+    --high:        #5a9b6a;
+    --medium:      #c4843f;
+    --low:         #9b4a4a;
+    --compound:    #4a7ab5;
+    --idiom:       #8a5ab5;
+    --unknown:     #5a5248;
+    --radius:      8px;
+    --radius-lg:   14px;
+    --transition:  0.18s ease;
+  }
+
+  html { font-size: 16px; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── Layout ── */
+  .app {
+    width: 100%;
+    max-width: 860px;
+    padding: 0 16px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* ── Header ── */
+  header {
+    padding: 28px 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+  .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .logo-runes {
+    font-size: 1.7rem;
+    color: var(--gold);
+    letter-spacing: 4px;
+    line-height: 1;
+  }
+  .logo-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.04em;
+  }
+  .logo-sub {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: block;
+  }
+  .ref-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 6px 14px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    transition: all var(--transition);
+  }
+  .ref-toggle:hover {
+    border-color: var(--gold-dim);
+    color: var(--gold);
+  }
+  .ref-toggle.active {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: var(--gold-glow);
+  }
+
+  /* ── Knotwork divider ── */
+  .knot-divider {
+    width: 100%;
+    height: 18px;
+    margin: 0 0 24px;
+    opacity: 0.35;
+  }
+
+  /* ── Input area ── */
+  .input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .phrase-input {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    color: var(--text);
+    font-size: 1.05rem;
+    padding: 14px 18px;
+    outline: none;
+    transition: border-color var(--transition), box-shadow var(--transition);
+  }
+  .phrase-input::placeholder { color: var(--text-faint); }
+  .phrase-input:focus {
+    border-color: var(--gold-dim);
+    box-shadow: 0 0 0 3px var(--gold-glow);
+  }
+  .clear-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    border-radius: var(--radius-lg);
+    padding: 0 18px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all var(--transition);
+  }
+  .clear-btn:hover { border-color: var(--border); color: var(--text); background: var(--surface2); }
+
+  /* ── Rune output panel ── */
+  .rune-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 28px 28px 22px;
+    margin-bottom: 20px;
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: border-color var(--transition);
+  }
+  .rune-panel.has-result { border-color: var(--gold-dim); }
+
+  .rune-output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .rune-word {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+  }
+  .rune-glyphs {
+    font-size: 2.8rem;
+    line-height: 1.1;
+    color: var(--gold);
+    letter-spacing: 3px;
+    text-shadow: 0 0 18px rgba(200,165,88,0.25);
+    cursor: default;
+    user-select: all;
+  }
+  .rune-glyphs.compound { color: #7aaddf; text-shadow: 0 0 18px rgba(74,122,181,0.3); }
+  .rune-glyphs.idiom    { color: #c09de0; text-shadow: 0 0 18px rgba(138,90,181,0.3); }
+  .rune-glyphs.unknown  { color: var(--text-faint); }
+
+  .rune-english {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    text-transform: lowercase;
+  }
+  .rune-phonemes {
+    font-size: 0.68rem;
+    font-family: monospace;
+    color: var(--gold-dim);
+    letter-spacing: 0.03em;
+  }
+
+  /* ── Footer ── */
+  .site-footer {
+    margin-top: 40px;
+    padding: 18px 0 24px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 0.68rem;
+    letter-spacing: 0.09em;
+    color: var(--text-faint);
+  }
+  .site-footer a { color: var(--text-faint); text-decoration: none; }
+  .site-footer a:hover { color: var(--gold-dim); }
+  .footer-sep { margin: 0 10px; opacity: 0.4; }
+  .footer-version { font-family: monospace; color: var(--gold-dim); }
+
+  /* ── Mode toggle ── */
+  .mode-toggle {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 18px;
+  }
+  .mode-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    border-radius: var(--radius);
+    padding: 5px 16px;
+    cursor: pointer;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all var(--transition);
+  }
+  .mode-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .mode-btn.active { border-color: var(--gold-dim); color: var(--gold); background: var(--gold-glow); }
+  .rune-glyphs.direct { color: #a0c8b0; text-shadow: 0 0 18px rgba(160,200,176,0.25); }
+
+  .rune-panel-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rune-panel-hint {
+    font-size: 0.72rem;
+    color: var(--text-faint);
+    font-style: italic;
+  }
+  .copy-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 5px 14px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all var(--transition);
+  }
+  .copy-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .copy-btn.copied { border-color: var(--high); color: var(--high); }
+
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 0;
+    color: var(--text-faint);
+  }
+  .empty-runes { font-size: 2rem; letter-spacing: 6px; color: var(--text-faint); opacity: 0.4; }
+  .empty-text  { font-size: 0.8rem; letter-spacing: 0.08em; }
+
+  /* ── Pipeline trace ── */
+  .trace-section {
+    margin-bottom: 20px;
+  }
+  .trace-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 12px;
+  }
+  .trace-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-dim);
+  }
+  .trace-chevron {
+    color: var(--text-faint);
+    font-size: 0.8rem;
+    transition: transform var(--transition);
+  }
+  .trace-chevron.open { transform: rotate(180deg); }
+  .trace-cards { display: flex; flex-direction: column; gap: 8px; }
+  .trace-cards.hidden { display: none; }
+
+  .token-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: border-color var(--transition);
+  }
+  .token-card:hover { border-color: var(--surface3); }
+  .token-card.source-lexicon  { border-left: 3px solid var(--high); }
+  .token-card.source-compound { border-left: 3px solid var(--compound); }
+  .token-card.source-idiom    { border-left: 3px solid var(--idiom); }
+  .token-card.source-unknown  { border-left: 3px solid var(--unknown); opacity: 0.6; }
+
+  .token-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .token-english {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .token-runes-preview {
+    font-size: 1.35rem;
+    color: var(--gold);
+    letter-spacing: 2px;
+  }
+  .token-runes-preview.compound { color: #7aaddf; }
+  .token-runes-preview.idiom    { color: #c09de0; }
+  .token-badges {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .badge {
+    font-size: 0.65rem;
+    padding: 2px 8px;
+    border-radius: 99px;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .badge-high     { background: rgba(90,155,106,0.18); color: var(--high); border: 1px solid rgba(90,155,106,0.3); }
+  .badge-medium   { background: rgba(196,132,63,0.18); color: var(--medium); border: 1px solid rgba(196,132,63,0.3); }
+  .badge-low      { background: rgba(155,74,74,0.18);  color: var(--low); border: 1px solid rgba(155,74,74,0.3); }
+  .badge-compound { background: rgba(74,122,181,0.18); color: var(--compound); border: 1px solid rgba(74,122,181,0.3); }
+  .badge-idiom    { background: rgba(138,90,181,0.18); color: var(--idiom);   border: 1px solid rgba(138,90,181,0.3); }
+  .badge-unknown  { background: rgba(90,82,72,0.18);   color: var(--unknown); border: 1px solid rgba(90,82,72,0.3); }
+  .badge-lexicon  { background: rgba(90,155,106,0.12); color: var(--high); border: 1px solid rgba(90,155,106,0.2); }
+
+  .token-body {
+    padding: 0 14px 14px;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 6px 12px;
+    align-items: start;
+    border-top: 1px solid var(--border);
+    margin-top: 0;
+  }
+  .token-body.hidden { display: none; }
+  .row-label {
+    font-size: 0.68rem;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 12px;
+    align-self: start;
+  }
+  .row-value {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+    padding-top: 10px;
+    word-break: break-all;
+  }
+  .gloss-text {
+    font-family: system-ui, sans-serif;
+    font-style: italic;
+    color: var(--compound);
+    font-size: 0.82rem;
+  }
+
+  /* Per-rune chips in the trace */
+  .rune-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 10px;
+  }
+  .rune-chip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 8px;
+    cursor: default;
+    transition: border-color var(--transition), background var(--transition);
+  }
+  .rune-chip:hover {
+    border-color: var(--gold-dim);
+    background: var(--surface3);
+  }
+  .rune-chip:hover .rune-chip-tooltip { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .rune-chip-glyph  { font-size: 1.3rem; color: var(--gold); line-height: 1; }
+  .rune-chip-phoneme { font-size: 0.6rem; color: var(--text-faint); letter-spacing: 0.04em; font-family: monospace; }
+
+  .rune-chip-tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    background: var(--surface3);
+    border: 1px solid var(--gold-dim);
+    border-radius: 6px;
+    padding: 7px 10px;
+    min-width: 130px;
+    text-align: center;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s ease, transform 0.12s ease;
+    white-space: nowrap;
+  }
+  .tooltip-rune    { font-size: 1.6rem; color: var(--gold); display: block; margin-bottom: 3px; }
+  .tooltip-name    { font-size: 0.72rem; color: var(--text); font-weight: 600; display: block; }
+  .tooltip-phoneme { font-size: 0.68rem; color: var(--text-dim); display: block; font-family: monospace; }
+  .tooltip-src     { font-size: 0.63rem; color: var(--text-faint); display: block; margin-top: 2px; }
+
+  /* Arrow connectors in the trace row */
+  .pipeline-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding-top: 10px;
+    font-family: monospace;
+    font-size: 0.82rem;
+  }
+  .pipe-arrow { color: var(--text-faint); margin: 0 2px; }
+  .pipe-stage-label { font-size: 0.62rem; color: var(--text-faint); font-family: sans-serif; }
+
+  /* ── Futhark reference panel ── */
+  .futhark-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .futhark-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color var(--transition);
+  }
+  .futhark-panel-header.open { border-bottom-color: var(--border); }
+  .futhark-panel-title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-dim);
+  }
+  .futhark-panel-body { padding: 16px 18px; }
+  .futhark-panel-body.hidden { display: none; }
+  .futhark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+    gap: 8px;
+  }
+  .futhark-cell {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 10px 6px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    transition: border-color var(--transition), background var(--transition);
+    cursor: default;
+  }
+  .futhark-cell:hover { border-color: var(--gold-dim); background: var(--surface3); }
+  .futhark-cell-rune    { font-size: 1.6rem; color: var(--gold); line-height: 1; }
+  .futhark-cell-name    { font-size: 0.58rem; color: var(--text-dim); text-align: center; }
+  .futhark-cell-phoneme { font-size: 0.65rem; color: var(--text-faint); font-family: monospace; }
+  .futhark-cell-meaning { font-size: 0.55rem; color: var(--text-faint); text-align: center; font-style: italic; display: none; }
+  .futhark-cell:hover .futhark-cell-meaning { display: block; }
+  .futhark-cell:hover .futhark-cell-phoneme { display: none; }
+
+  /* ── Spinner ── */
+  .spinner {
+    display: inline-block;
+    width: 14px; height: 14px;
+    border: 2px solid var(--border);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span class="logo-runes">ᚱᚢᚾᛖ</span>
+      <div>
+        <span class="logo-text">RunePipeline</span>
+        <span class="logo-sub">English → Proto-Germanic → Proto-Norse → Elder Futhark</span>
+      </div>
+    </div>
+    <button class="ref-toggle" id="refToggle">Futhark Reference</button>
+  </header>
+
+  <!-- Knotwork divider (SVG) -->
+  <svg class="knot-divider" viewBox="0 0 800 18" preserveAspectRatio="none"
+       xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M0,9 Q50,0 100,9 Q150,18 200,9 Q250,0 300,9 Q350,18 400,9
+             Q450,0 500,9 Q550,18 600,9 Q650,0 700,9 Q750,18 800,9"
+          stroke="#c8a558" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <circle cx="400" cy="9" r="3" fill="#c8a558" opacity="0.8"/>
+    <circle cx="200" cy="9" r="2" fill="#c8a558" opacity="0.5"/>
+    <circle cx="600" cy="9" r="2" fill="#c8a558" opacity="0.5"/>
+  </svg>
+
+  <!-- Input -->
+  <div class="input-area">
+    <input class="phrase-input" id="phraseInput"
+           type="text" placeholder="Enter an English phrase…" autocomplete="off" spellcheck="false">
+    <button class="clear-btn" id="clearBtn" title="Clear">✕</button>
+  </div>
+
+  <!-- Mode toggle -->
+  <div class="mode-toggle">
+    <button class="mode-btn active" id="modePipeline">Pipeline</button>
+    <button class="mode-btn" id="modeDirect">Direct</button>
+  </div>
+
+  <!-- Rune output -->
+  <div class="rune-panel" id="runePanel">
+    <div class="empty-state" id="emptyState">
+      <div class="empty-runes">ᚠ ᚢ ᚦ ᚨ ᚱ</div>
+      <div class="empty-text">Awaiting inscription…</div>
+    </div>
+    <div class="rune-output" id="runeOutput" style="display:none"></div>
+    <div class="rune-panel-footer" id="runeFooter" style="display:none">
+      <span class="rune-panel-hint" id="runeHint">Hover the trace below for rune details</span>
+      <button class="copy-btn" id="copyBtn">
+        <span>ᚲ</span><span>Copy runes</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Pipeline trace -->
+  <div class="trace-section" id="traceSection" style="display:none">
+    <div class="trace-header" id="traceHeader">
+      <span class="trace-label">Pipeline Trace</span>
+      <span class="trace-chevron open" id="traceChevron">▾</span>
+    </div>
+    <div class="trace-cards" id="traceCards"></div>
+  </div>
+
+  <!-- Futhark reference -->
+  <div class="futhark-panel" id="futharkPanel" style="display:none">
+    <div class="futhark-panel-header" id="futharkHeader">
+      <span class="futhark-panel-title">Elder Futhark — All 24 Runes</span>
+      <span class="trace-chevron" id="futharkChevron">▾</span>
+    </div>
+    <div class="futhark-panel-body hidden" id="futharkBody"></div>
+  </div>
+
+  <footer class="site-footer">
+    RunePipeline
+    <span class="footer-sep">·</span>
+    by Ryon Shane Hall
+    <span class="footer-sep">·</span>
+    <span class="footer-version" id="footerVersion">v—</span>
+  </footer>
+
+</div>
+
+<script>
+const API = '';  // same origin
+
+// ── State ──────────────────────────────────────────
+let currentTokens = [];
+let directWords   = [];   // [{word, runes}] for direct mode copy
+let directMode    = false;
+let traceOpen = true;
+let futharkOpen = false;
+let runeData = [];
+let debounceTimer = null;
+
+// ── DOM refs ───────────────────────────────────────
+const input        = document.getElementById('phraseInput');
+const clearBtn     = document.getElementById('clearBtn');
+const runePanel    = document.getElementById('runePanel');
+const emptyState   = document.getElementById('emptyState');
+const runeOutput   = document.getElementById('runeOutput');
+const runeFooter   = document.getElementById('runeFooter');
+const runeHint     = document.getElementById('runeHint');
+const traceSection = document.getElementById('traceSection');
+const traceHeader  = document.getElementById('traceHeader');
+const traceCards   = document.getElementById('traceCards');
+const traceChevron = document.getElementById('traceChevron');
+const copyBtn      = document.getElementById('copyBtn');
+const refToggle    = document.getElementById('refToggle');
+const futharkPanel = document.getElementById('futharkPanel');
+const futharkHeader= document.getElementById('futharkHeader');
+const futharkBody  = document.getElementById('futharkBody');
+const futharkChevron = document.getElementById('futharkChevron');
+const modePipelineBtn = document.getElementById('modePipeline');
+const modeDirectBtn   = document.getElementById('modeDirect');
+
+// ── Direct transliteration map ─────────────────────
+// Digraphs checked first, then single characters.
+const DIRECT_DIGRAPHS = { 'th': 'ᚦ', 'ng': 'ᛜ' };
+const DIRECT_CHARS = {
+  'a':'ᚨ','b':'ᛒ','c':'ᚲ','d':'ᛞ','e':'ᛖ','f':'ᚠ','g':'ᚷ',
+  'h':'ᚺ','i':'ᛁ','j':'ᛃ','k':'ᚲ','l':'ᛚ','m':'ᛗ','n':'ᚾ',
+  'o':'ᛟ','p':'ᛈ','q':'ᚲ','r':'ᚱ','s':'ᛊ','t':'ᛏ','u':'ᚢ',
+  'v':'ᚠ','w':'ᚹ','x':'ᚲᛊ','y':'ᛃ','z':'ᛉ'
+};
+
+function directMapWord(word) {
+  const s = word.toLowerCase();
+  let runes = '', phonemes = [];
+  let i = 0;
+  while (i < s.length) {
+    const di = s.slice(i, i + 2);
+    if (DIRECT_DIGRAPHS[di]) {
+      runes += DIRECT_DIGRAPHS[di];
+      phonemes.push(di);
+      i += 2;
+    } else {
+      const r = DIRECT_CHARS[s[i]];
+      if (r) { runes += r; phonemes.push(s[i]); }
+      i++;
+    }
+  }
+  return { runes, phonemes };
+}
+
+function renderDirect(text) {
+  const words = text.trim().split(/\s+/).filter(Boolean);
+  if (!words.length) { showEmpty(); return; }
+
+  directWords = words.map(w => ({ word: w, ...directMapWord(w) }));
+
+  emptyState.style.display = 'none';
+  runeOutput.style.display = '';
+  runeFooter.style.display = '';
+  runePanel.classList.add('has-result');
+  traceSection.style.display = 'none';
+  runeHint.textContent = 'Direct transliteration · not historically accurate';
+
+  runeOutput.innerHTML = directWords.map(({ word, runes, phonemes }) => {
+    const ph = phonemes.join('·');
+    return `
+    <div class="rune-word">
+      <div class="rune-glyphs direct">${esc(runes)}</div>
+      ${ph ? `<div class="rune-phonemes">${esc(ph)}</div>` : ''}
+      <div class="rune-english">${esc(word)}</div>
+    </div>`;
+  }).join('');
+}
+
+// ── Mode toggle ────────────────────────────────────
+modePipelineBtn.addEventListener('click', () => {
+  if (directMode) {
+    directMode = false;
+    modePipelineBtn.classList.add('active');
+    modeDirectBtn.classList.remove('active');
+    runeHint.textContent = 'Hover the trace below for rune details';
+    if (input.value.trim()) translate(input.value);
+    else showEmpty();
+  }
+});
+
+modeDirectBtn.addEventListener('click', () => {
+  if (!directMode) {
+    directMode = true;
+    modeDirectBtn.classList.add('active');
+    modePipelineBtn.classList.remove('active');
+    if (input.value.trim()) renderDirect(input.value);
+    else showEmpty();
+  }
+});
+
+// ── Utilities ──────────────────────────────────────
+function certBadgeClass(c) {
+  if (c === 'high')     return 'badge-high';
+  if (c === 'medium')   return 'badge-medium';
+  if (c === 'low')      return 'badge-low';
+  if (c === 'compound') return 'badge-compound';
+  return 'badge-unknown';
+}
+
+function sourceBadgeClass(s) {
+  if (s === 'lexicon')  return 'badge-lexicon';
+  if (s === 'compound') return 'badge-compound';
+  if (s === 'idiom')    return 'badge-idiom';
+  return 'badge-unknown';
+}
+
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Translate ──────────────────────────────────────
+async function translate(text) {
+  if (!text.trim()) { showEmpty(); return; }
+
+  try {
+    const res = await fetch(API + '/api/translate', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({text})
+    });
+    const data = await res.json();
+    currentTokens = data.tokens || [];
+    render(currentTokens);
+  } catch(e) {
+    console.error(e);
+  }
+}
+
+function scheduleTranslate() {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    if (directMode) renderDirect(input.value);
+    else translate(input.value);
+  }, 250);
+}
+
+// ── Render ─────────────────────────────────────────
+function showEmpty() {
+  currentTokens = [];
+  directWords   = [];
+  emptyState.style.display = '';
+  runeOutput.style.display = 'none';
+  runeFooter.style.display = 'none';
+  runePanel.classList.remove('has-result');
+  traceSection.style.display = 'none';
+  traceCards.innerHTML = '';
+}
+
+function render(tokens) {
+  const knowns = tokens.filter(t => t.source !== 'unknown');
+  if (knowns.length === 0) { showEmpty(); return; }
+
+  // ── Big rune display ──
+  emptyState.style.display = 'none';
+  runeOutput.style.display = '';
+  runeFooter.style.display = '';
+  runePanel.classList.add('has-result');
+
+  runeOutput.innerHTML = knowns.map(t => {
+    const phonemes = (t.rune_tokens || []).map(rt => rt.phoneme).join('·');
+    return `
+    <div class="rune-word">
+      <div class="rune-glyphs ${t.source}">${esc(t.runes)}</div>
+      ${phonemes ? `<div class="rune-phonemes">${esc(phonemes)}</div>` : ''}
+      <div class="rune-english">${esc(t.english)}</div>
+    </div>`;
+  }).join('');
+
+  // ── Pipeline trace ──
+  traceSection.style.display = '';
+  traceCards.innerHTML = tokens.map((t, idx) => buildTokenCard(t, idx)).join('');
+
+  // Attach expand/collapse listeners on cards
+  traceCards.querySelectorAll('.token-card-header').forEach(hdr => {
+    hdr.addEventListener('click', () => {
+      const body = hdr.nextElementSibling;
+      body.classList.toggle('hidden');
+    });
+  });
+}
+
+function buildTokenCard(t, idx) {
+  if (t.source === 'unknown') {
+    return `
+      <div class="token-card source-unknown">
+        <div class="token-card-header" style="cursor:default">
+          <span class="token-english">${esc(t.english)}</span>
+          <div class="token-badges">
+            <span class="badge badge-unknown">unknown</span>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  const chips = (t.rune_tokens || []).map(rt => `
+    <div class="rune-chip">
+      <div class="rune-chip-glyph">${esc(rt.rune)}</div>
+      <div class="rune-chip-phoneme">${esc(rt.phoneme)}</div>
+      <div class="rune-chip-tooltip">
+        <span class="tooltip-rune">${esc(rt.rune)}</span>
+        <span class="tooltip-name">${esc(rt.name)}</span>
+        <span class="tooltip-phoneme">/${esc(rt.phoneme)}/</span>
+        <span class="tooltip-src">from ‹${esc(rt.sourceChar)}›</span>
+      </div>
+    </div>
+  `).join('');
+
+  const glossRow = t.gloss ? `
+    <div class="row-label">Gloss</div>
+    <div class="row-value"><span class="gloss-text">${esc(t.gloss)}</span></div>
+  ` : '';
+
+  return `
+    <div class="token-card source-${t.source}">
+      <div class="token-card-header">
+        <div style="display:flex;align-items:center;gap:10px">
+          <span class="token-english">${esc(t.english)}</span>
+          <span class="token-runes-preview ${t.source}">${esc(t.runes)}</span>
+        </div>
+        <div class="token-badges">
+          <span class="badge ${certBadgeClass(t.certainty)}">${esc(t.certainty)}</span>
+          <span class="badge ${sourceBadgeClass(t.source)}">${esc(t.source)}</span>
+        </div>
+      </div>
+      <div class="token-body">
+        <div class="row-label">PGmc</div>
+        <div class="row-value">${esc(t.pgmc)}</div>
+        <div class="row-label">Proto-Norse</div>
+        <div class="row-value">${esc(t.proto_norse)}</div>
+        ${glossRow}
+        <div class="row-label">Runes</div>
+        <div class="row-value">
+          <div class="rune-chips">${chips}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+// ── Copy ───────────────────────────────────────────
+copyBtn.addEventListener('click', () => {
+  const runeStr = directMode
+    ? directWords.map(w => w.runes).join(' ')
+    : currentTokens.filter(t => t.source !== 'unknown').map(t => t.runes).join(' ');
+  navigator.clipboard.writeText(runeStr).then(() => {
+    copyBtn.classList.add('copied');
+    copyBtn.querySelector('span:last-child').textContent = 'Copied!';
+    setTimeout(() => {
+      copyBtn.classList.remove('copied');
+      copyBtn.querySelector('span:last-child').textContent = 'Copy runes';
+    }, 1800);
+  });
+});
+
+// ── Trace collapse ─────────────────────────────────
+traceHeader.addEventListener('click', () => {
+  traceOpen = !traceOpen;
+  traceCards.classList.toggle('hidden', !traceOpen);
+  traceChevron.classList.toggle('open', traceOpen);
+});
+
+// ── Futhark reference ──────────────────────────────
+refToggle.addEventListener('click', () => {
+  futharkPanel.style.display = '';
+  futharkOpen = !futharkOpen;
+  refToggle.classList.toggle('active', futharkOpen);
+  futharkBody.classList.toggle('hidden', !futharkOpen);
+  futharkHeader.querySelector('.trace-chevron').classList.toggle('open', futharkOpen);
+  if (futharkOpen && futharkBody.childElementCount === 0) buildFutharkGrid();
+});
+
+futharkHeader.addEventListener('click', () => {
+  futharkOpen = !futharkOpen;
+  refToggle.classList.toggle('active', futharkOpen);
+  futharkBody.classList.toggle('hidden', !futharkOpen);
+  futharkChevron.classList.toggle('open', futharkOpen);
+  if (futharkOpen && futharkBody.childElementCount === 0) buildFutharkGrid();
+});
+
+async function loadRunes() {
+  try {
+    const res = await fetch(API + '/api/runes');
+    runeData = await res.json();
+  } catch(e) { console.warn('Could not load rune data', e); }
+}
+
+function buildFutharkGrid() {
+  if (runeData.length === 0) { futharkBody.textContent = 'Rune data unavailable.'; return; }
+  futharkBody.innerHTML = `<div class="futhark-grid">` +
+    runeData.map(r => `
+      <div class="futhark-cell">
+        <div class="futhark-cell-rune">${esc(r.rune)}</div>
+        <div class="futhark-cell-name">${esc(r.name)}</div>
+        <div class="futhark-cell-phoneme">/${esc(r.phoneme)}/</div>
+        <div class="futhark-cell-meaning">${esc(r.meaning)}</div>
+      </div>`).join('') +
+    `</div>`;
+}
+
+// ── Input wiring ───────────────────────────────────
+input.addEventListener('input', scheduleTranslate);
+clearBtn.addEventListener('click', () => {
+  input.value = '';
+  showEmpty();
+  input.focus();
+});
+
+// ── Init ───────────────────────────────────────────
+loadRunes();
+
+async function loadVersion() {
+  try {
+    const res = await fetch(API + '/api/version');
+    const d   = await res.json();
+    document.getElementById('footerVersion').textContent = 'v' + d.version;
+  } catch(e) { /* server may not support endpoint yet */ }
+}
+loadVersion();
+
+input.focus();
+</script>
+</body>
+</html>

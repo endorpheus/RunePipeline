@@ -1,0 +1,133 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.make
+*.ninja
+compile_commands.json
+
+# Compiled binaries and object files
+runepipe
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# ── Privacy & identity ────────────────────────────────────────────────────────
+# Claude Code project settings — may store tool permissions, paths with
+# usernames, or other local machine context that should not be published.
+.claude/
+
+# Shell history, if accidentally dropped in the project root
+.bash_history
+.zsh_history
+.sh_history
+
+# SSH and GPG material
+*.pem
+*.key
+*.ppk
+id_rsa
+id_ed25519
+id_ecdsa
+*.pub
+
+# Credential and secret files
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+config.local.*
+auth.json
+token.json
+*.secret
+
+# ── Redundant / stale archives ────────────────────────────────────────────────
+# Old packaged snapshots — source is tracked directly; zips add no value and
+# can embed absolute paths (e.g. /home/username/...) from the build machine.
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+*.rar
+*.7z
+
+# ── Logs and temporaries ──────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+
+# ── Editors and IDEs ──────────────────────────────────────────────────────────
+# VS Code — workspace settings can contain absolute paths and extension data
+.vscode/
+!.vscode/extensions.json   # exception: shared extension recommendations are fine
+
+# JetBrains (CLion, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-debug/
+cmake-build-release/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+\#*\#
+.\#*
+*.elc
+
+# Kate / KDevelop
+*.kate-swp
+.kdev4/
+*.kdev4
+
+# ── Operating system ──────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ── Packaging ─────────────────────────────────────────────────────────────────
+_CPack_Packages/
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.msi
+*.appimage

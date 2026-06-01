@@ -1,0 +1,129 @@
+{
+  "Note": "Common English idioms mapped to Proto-Germanic semantic equivalents. The proto form expresses the idiom's meaning, not a word-for-word rendering.",
+
+  "time is short":              {"proto": "hwīlō skurtō",      "certainty": "medium", "gloss": "little time (urgency)"},
+  "time flies":                 {"proto": "hwīlō snagwaz",     "certainty": "medium", "gloss": "time passes swiftly"},
+  "against the clock":          {"proto": "hwīlō skurtō",      "certainty": "medium", "gloss": "racing against time"},
+
+  "under the weather":          {"proto": "sauhtiz",           "certainty": "high",   "gloss": "feeling ill"},
+  "feeling under the weather":  {"proto": "sauhtiz",           "certainty": "high",   "gloss": "feeling ill"},
+
+  "piece of cake":              {"proto": "auðaz",             "certainty": "medium", "gloss": "easy / effortless"},
+  "a piece of cake":            {"proto": "auðaz",             "certainty": "medium", "gloss": "easy / effortless"},
+
+  "break a leg":                {"proto": "wulþuz",            "certainty": "medium", "gloss": "glory / good fortune"},
+  "good luck":                  {"proto": "audaz",             "certainty": "high",   "gloss": "fortune / luck"},
+
+  "once in a blue moon":        {"proto": "seldanaz",          "certainty": "high",   "gloss": "rarely / seldom"},
+  "when pigs fly":              {"proto": "seldanaz",          "certainty": "high",   "gloss": "never / impossibly rare"},
+
+  "blood is thicker than water":{"proto": "blōþą frijōnd",    "certainty": "medium", "gloss": "blood-bond / kin loyalty"},
+  "family comes first":         {"proto": "blōþą frijōnd",    "certainty": "medium", "gloss": "kin before all"},
+
+  "raining cats and dogs":      {"proto": "stōrą regnaz",     "certainty": "medium", "gloss": "great rain / downpour"},
+
+  "hit the road":               {"proto": "farōną",            "certainty": "high",   "gloss": "depart / travel"},
+  "on the road":                {"proto": "farōną",            "certainty": "high",   "gloss": "traveling"},
+  "hit the trail":              {"proto": "farōną",            "certainty": "high",   "gloss": "depart / set out"},
+
+  "let sleeping dogs lie":      {"proto": "friþuz",            "certainty": "high",   "gloss": "maintain peace"},
+  "let it go":                  {"proto": "friþuz",            "certainty": "high",   "gloss": "release / make peace"},
+
+  "in the same boat":           {"proto": "samō wyrdiz",       "certainty": "low",    "gloss": "shared fate"},
+  "all in the same boat":       {"proto": "samō wyrdiz",       "certainty": "low",    "gloss": "shared fate"},
+
+  "every cloud has a silver lining": {"proto": "harma audaz", "certainty": "low",    "gloss": "fortune emerges from hardship"},
+  "it could be worse":          {"proto": "harma audaz",       "certainty": "low",    "gloss": "fortune within hardship"},
+
+  "no pain no gain":            {"proto": "ni sairaz ni wulþuz","certainty": "medium","gloss": "no pain no glory"},
+
+  "cost an arm and a leg":      {"proto": "deuraz",            "certainty": "high",   "gloss": "very costly"},
+  "doesn't come cheap":         {"proto": "deuraz",            "certainty": "high",   "gloss": "very costly"},
+
+  "face the music":             {"proto": "dōmaz",             "certainty": "medium", "gloss": "accept judgment"},
+  "face the consequences":      {"proto": "dōmaz",             "certainty": "medium", "gloss": "accept judgment"},
+
+  "keep your chin up":          {"proto": "þrūþaz",            "certainty": "high",   "gloss": "strength / courage"},
+  "stay strong":                {"proto": "þrūþaz",            "certainty": "high",   "gloss": "maintain strength"},
+
+  "through thick and thin":     {"proto": "þrūþaz biranaz",   "certainty": "medium", "gloss": "bear all hardship"},
+  "bite the bullet":            {"proto": "þrūþaz biranaz",   "certainty": "medium", "gloss": "endure hardship"},
+  "grin and bear it":           {"proto": "þrūþaz biranaz",   "certainty": "medium", "gloss": "endure hardship"},
+
+  "spill the beans":            {"proto": "runō opanaz",       "certainty": "medium", "gloss": "reveal secrets"},
+  "let the cat out of the bag": {"proto": "runō opanaz",       "certainty": "medium", "gloss": "reveal secrets"},
+  "let it slip":                {"proto": "runō opanaz",       "certainty": "medium", "gloss": "accidentally reveal"},
+
+  "hit the nail on the head":   {"proto": "rihtaz sagdaz",    "certainty": "medium", "gloss": "exactly right"},
+  "on the right track":         {"proto": "rihtaz stegō",     "certainty": "medium", "gloss": "on the right path"},
+  "on the money":               {"proto": "rihtaz sagdaz",    "certainty": "medium", "gloss": "exactly correct"},
+
+  "miss the boat":              {"proto": "lātaz",             "certainty": "medium", "gloss": "too late / missed chance"},
+  "too little too late":        {"proto": "lātaz",             "certainty": "medium", "gloss": "too late"},
+
+  "add fuel to the fire":       {"proto": "hatuz aukanaz",    "certainty": "medium", "gloss": "increase conflict / wrath"},
+  "add insult to injury":       {"proto": "skaþō aukanaz",    "certainty": "medium", "gloss": "increase harm"},
+  "make matters worse":         {"proto": "skaþō aukanaz",    "certainty": "medium", "gloss": "increase harm"},
+
+  "a wolf in sheep's clothing": {"proto": "wulfaz gīslaz",    "certainty": "medium", "gloss": "deceiver / false friend"},
+  "a snake in the grass":       {"proto": "wulfaz gīslaz",    "certainty": "medium", "gloss": "hidden enemy"},
+
+  "actions speak louder than words": {"proto": "dādiz",       "certainty": "medium", "gloss": "deeds matter more than words"},
+  "put your money where your mouth is": {"proto": "dādiz",    "certainty": "medium", "gloss": "prove it with deeds"},
+
+  "at the end of the day":      {"proto": "hindumistaz",       "certainty": "medium", "gloss": "ultimately / in the end"},
+  "when all is said and done":  {"proto": "hindumistaz",       "certainty": "medium", "gloss": "ultimately / in the end"},
+  "in the end":                 {"proto": "hindumistaz",       "certainty": "high",   "gloss": "ultimately"},
+
+  "back to square one":         {"proto": "niwaz aginnaną",   "certainty": "low",    "gloss": "begin anew"},
+  "back to the drawing board":  {"proto": "niwaz aginnaną",   "certainty": "low",    "gloss": "begin anew"},
+  "start from scratch":         {"proto": "niwaz aginnaną",   "certainty": "low",    "gloss": "begin anew"},
+
+  "burning bridges":            {"proto": "frijōnd wōstijaną","certainty": "low",    "gloss": "destroy one's alliances"},
+  "burn your bridges":          {"proto": "frijōnd wōstijaną","certainty": "low",    "gloss": "destroy one's alliances"},
+  "burning your bridges":       {"proto": "frijōnd wōstijaną","certainty": "low",    "gloss": "destroy one's alliances"},
+
+  "bite the hand that feeds you": {"proto": "frijōnd skaþijaną","certainty": "low", "gloss": "harm your benefactor"},
+  "kill two birds with one stone":{"proto": "twai fuglaz ainō stainō","certainty": "medium","gloss": "two birds one stone"},
+
+  "speak of the devil":         {"proto": "namnijanaz",        "certainty": "medium", "gloss": "named and appears"},
+  "better late than never":     {"proto": "sīþō aiþan ni",    "certainty": "low",    "gloss": "late is better than never"},
+  "a blessing in disguise":     {"proto": "ferwijanaz audaz",  "certainty": "low",    "gloss": "hidden fortune"},
+
+  "look before you leap":       {"proto": "ugdaną rādijaną",  "certainty": "low",    "gloss": "consider before acting"},
+  "barking up the wrong tree":  {"proto": "missaz waidijaną", "certainty": "low",    "gloss": "seeking in error"},
+
+  "beat around the bush":       {"proto": "waidijanaz stijananą","certainty": "low", "gloss": "avoid the matter"},
+  "beating around the bush":    {"proto": "waidijanaz stijananą","certainty": "low", "gloss": "avoid the matter"},
+
+  "the last straw":             {"proto": "hindumistaz þwangaz","certainty": "low",  "gloss": "final breaking point"},
+  "it was the last straw":      {"proto": "hindumistaz þwangaz","certainty": "low",  "gloss": "final breaking point"},
+
+  "you reap what you sow":      {"proto": "dādiz",             "certainty": "medium", "gloss": "deeds return to the doer"},
+  "what goes around comes around": {"proto": "dādiz",          "certainty": "medium", "gloss": "deeds return to the doer"},
+
+  "the tip of the iceberg":     {"proto": "liutilaz skimanaz", "certainty": "low",   "gloss": "small visible part of a greater whole"},
+  "just the beginning":         {"proto": "liutilaz skimanaz", "certainty": "low",   "gloss": "small part visible"},
+
+  "put all your eggs in one basket": {"proto": "ainaz wāgō",  "certainty": "low",   "gloss": "single gamble / one risk"},
+  "all or nothing":             {"proto": "ainaz wāgō",        "certainty": "low",   "gloss": "single gamble"},
+
+  "go with the flow":           {"proto": "rinnaz",            "certainty": "medium", "gloss": "follow the current"},
+  "let nature take its course": {"proto": "rinnaz",            "certainty": "medium", "gloss": "let things flow naturally"},
+
+  "dark before the dawn":       {"proto": "nahtaz fura dagaz", "certainty": "medium", "gloss": "darkness before daylight"},
+  "darkest before the dawn":    {"proto": "nahtaz fura dagaz", "certainty": "medium", "gloss": "darkness before daylight"},
+  "burning the midnight oil":   {"proto": "nahtaz wirkijaną", "certainty": "medium", "gloss": "toiling through the night"},
+  "work through the night":     {"proto": "nahtaz wirkijaną", "certainty": "medium", "gloss": "toiling through the night"},
+
+  "rise and shine":             {"proto": "dagaz",             "certainty": "high",   "gloss": "the day / awaken"},
+  "seize the day":              {"proto": "dagaz winnaz",      "certainty": "medium", "gloss": "grasp the day"},
+  "carpe diem":                 {"proto": "dagaz winnaz",      "certainty": "medium", "gloss": "seize the day"},
+
+  "blood and thunder":          {"proto": "blōþą Þunraz",     "certainty": "high",   "gloss": "blood and thunder (battle-fury)"},
+  "blood and glory":            {"proto": "blōþą wulþuz",     "certainty": "high",   "gloss": "blood and glory"},
+  "fire and ice":               {"proto": "fūrą isaz",        "certainty": "high",   "gloss": "fire and ice"},
+  "by sword and shield":        {"proto": "swerþaz skelduz",  "certainty": "high",   "gloss": "by sword and shield"},
+  "of blood and bone":          {"proto": "blōþą bainaz",     "certainty": "high",   "gloss": "of blood and bone"},
+  "flesh and blood":            {"proto": "fleiskaz blōþą",   "certainty": "high",   "gloss": "flesh and blood / kin"}
+}
